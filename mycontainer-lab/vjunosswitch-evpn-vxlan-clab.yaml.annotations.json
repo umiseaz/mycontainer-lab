@@ -1,0 +1,267 @@
+{
+  "freeTextAnnotations": [
+    {
+      "id": "freeText_1767666418315_1",
+      "text": "192.168.1.1/24 - vlan10",
+      "position": {
+        "x": 25,
+        "y": 314
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767666448572_3",
+      "text": "192.168.2.1/24 - vlan 20",
+      "position": {
+        "x": 102,
+        "y": 335
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767666462350_4",
+      "text": "192.68.1.2/24 - vlan 10",
+      "position": {
+        "x": 171,
+        "y": 309
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767666475433_5",
+      "text": "192.168.2.2/24 - vlan 20",
+      "position": {
+        "x": 249,
+        "y": 332
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767666503395_6",
+      "text": "lo0: 11.11.11.11/32",
+      "position": {
+        "x": 80,
+        "y": 93
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767666519624_8",
+      "text": "lo0: 22.22.22.22/32",
+      "position": {
+        "x": 218,
+        "y": 93
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767666533854_9",
+      "text": "lo0: 1.1.1.1/32",
+      "position": {
+        "x": 21,
+        "y": 206
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767666545041_10",
+      "text": "lo0: 2.2.2.2/32",
+      "position": {
+        "x": 278,
+        "y": 205
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767666562105_11",
+      "text": "OSPF/iBGP - AS6500",
+      "position": {
+        "x": 150,
+        "y": 154
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    }
+  ],
+  "freeShapeAnnotations": [],
+  "groupStyleAnnotations": [],
+  "cloudNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "spine1",
+      "icon": "router",
+      "position": {
+        "x": 77,
+        "y": 105
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "spine2",
+      "icon": "router",
+      "position": {
+        "x": 217,
+        "y": 105
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "leaf1",
+      "icon": "router",
+      "position": {
+        "x": 77,
+        "y": 203
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "leaf2",
+      "icon": "router",
+      "position": {
+        "x": 217,
+        "y": 203
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "host1",
+      "icon": "router",
+      "position": {
+        "x": 105,
+        "y": 287
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "host2",
+      "icon": "router",
+      "position": {
+        "x": 189,
+        "y": 287
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "host3",
+      "icon": "router",
+      "position": {
+        "x": 49,
+        "y": 287
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.107895390625677
+      }
+    },
+    {
+      "id": "host4",
+      "icon": "router",
+      "position": {
+        "x": 245,
+        "y": 287
+      },
+      "geoCoordinates": {
+        "lat": 48.88482688840226,
+        "lng": 9.307895390625678
+      }
+    }
+  ]
+}

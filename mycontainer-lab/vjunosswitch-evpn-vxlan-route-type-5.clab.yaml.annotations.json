@@ -1,0 +1,177 @@
+{
+  "freeTextAnnotations": [
+    {
+      "id": "freeText_1767829549694_1",
+      "text": "192.168.1.0/24 - vlan 10",
+      "position": {
+        "x": 0,
+        "y": 349
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767829574542_2",
+      "text": "192.168.2.0/24 - vlan 20",
+      "position": {
+        "x": 85,
+        "y": 372
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767829591112_3",
+      "text": "192.168.1.0/24 - vlan 10",
+      "position": {
+        "x": 163,
+        "y": 346
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767829619258_4",
+      "text": "192.168.3.0/24 - vlan 30",
+      "position": {
+        "x": 255,
+        "y": 371
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    }
+  ],
+  "freeShapeAnnotations": [],
+  "groupStyleAnnotations": [],
+  "cloudNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "spine1",
+      "icon": "router",
+      "position": {
+        "x": 49,
+        "y": 105
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "spine2",
+      "icon": "router",
+      "position": {
+        "x": 203,
+        "y": 105
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "leaf1",
+      "icon": "router",
+      "position": {
+        "x": 49,
+        "y": 203
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "leaf2",
+      "icon": "router",
+      "position": {
+        "x": 203,
+        "y": 203
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "host1",
+      "icon": "router",
+      "position": {
+        "x": 21,
+        "y": 301
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "host2",
+      "icon": "router",
+      "position": {
+        "x": 175,
+        "y": 301
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "host3",
+      "icon": "router",
+      "position": {
+        "x": 77,
+        "y": 301
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "host4",
+      "icon": "router",
+      "position": {
+        "x": 245,
+        "y": 301
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    }
+  ]
+}

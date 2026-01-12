@@ -1,0 +1,31 @@
+all:
+  vars:
+    # The generated inventory is assumed to be used from the clab host.
+    # Hence no http proxy should be used. Therefore we make sure the http
+    # module does not attempt using any global http proxy.
+    ansible_httpapi_use_proxy: false
+  children:
+    juniper_vjunosswitch:
+      vars:
+        # ansible_connection: set ansible_connection variable if required
+        ansible_user: admin
+        ansible_password: admin@123
+      hosts:
+        clab-evpn-vxlan-route-type-5-leaf1:
+          ansible_host: 172.20.20.7
+        clab-evpn-vxlan-route-type-5-leaf2:
+          ansible_host: 172.20.20.9
+        clab-evpn-vxlan-route-type-5-spine1:
+          ansible_host: 172.20.20.2
+        clab-evpn-vxlan-route-type-5-spine2:
+          ansible_host: 172.20.20.8
+    linux:
+      hosts:
+        clab-evpn-vxlan-route-type-5-host1:
+          ansible_host: 172.20.20.4
+        clab-evpn-vxlan-route-type-5-host2:
+          ansible_host: 172.20.20.5
+        clab-evpn-vxlan-route-type-5-host3:
+          ansible_host: 172.20.20.3
+        clab-evpn-vxlan-route-type-5-host4:
+          ansible_host: 172.20.20.6

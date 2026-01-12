@@ -1,0 +1,189 @@
+{
+  "freeTextAnnotations": [
+    {
+      "id": "freeText_1767174319585_1",
+      "text": "10.1.1.0/24",
+      "position": {
+        "x": 33,
+        "y": 140
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767174338197_2",
+      "text": "10.1.2.0/24",
+      "position": {
+        "x": 98,
+        "y": 115
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767174357533_5",
+      "text": "20.2.1.0/24",
+      "position": {
+        "x": 205,
+        "y": 116
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767174367586_6",
+      "text": "20.2.2.0/24",
+      "position": {
+        "x": 274,
+        "y": 144
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767174387578_7",
+      "text": "192.168.1.0/24",
+      "position": {
+        "x": 72,
+        "y": 226
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1767174399326_8",
+      "text": "192.168.1.0/24",
+      "position": {
+        "x": 240,
+        "y": 226
+      },
+      "fontSize": 8,
+      "fontColor": "#ffffff",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "fontFamily": "monospace",
+      "textAlign": "left",
+      "rotation": 0,
+      "roundedBackground": true
+    }
+  ],
+  "freeShapeAnnotations": [],
+  "groupStyleAnnotations": [],
+  "cloudNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "spine1",
+      "icon": "router",
+      "position": {
+        "x": 35,
+        "y": 91
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "spine2",
+      "icon": "router",
+      "position": {
+        "x": 273,
+        "y": 91
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "leaf1",
+      "icon": "router",
+      "position": {
+        "x": 35,
+        "y": 189
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "leaf2",
+      "icon": "router",
+      "position": {
+        "x": 273,
+        "y": 189
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "host1",
+      "icon": "router",
+      "position": {
+        "x": 105,
+        "y": 259
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "host2",
+      "icon": "router",
+      "position": {
+        "x": 203,
+        "y": 259
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    }
+  ]
+}

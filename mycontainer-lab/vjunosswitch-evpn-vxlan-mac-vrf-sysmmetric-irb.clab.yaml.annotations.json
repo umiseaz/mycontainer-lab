@@ -1,0 +1,147 @@
+{
+  "freeTextAnnotations": [
+    {
+      "id": "freeText_1768090062438_edb16816",
+      "text": "192.168.100.1/24 - vlan100",
+      "position": {
+        "x": -79,
+        "y": 264
+      },
+      "fontSize": 8,
+      "fontColor": "#FFFFFF",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "monospace",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1768090351553_85878934",
+      "text": "192.168.100.2/24 - vlan100",
+      "position": {
+        "x": 83,
+        "y": 264
+      },
+      "fontSize": 8,
+      "fontColor": "#FFFFFF",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "monospace",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1768133706680_113ba174",
+      "text": "192.168.30.1/24 - vlan30",
+      "position": {
+        "x": 233,
+        "y": 264
+      },
+      "fontSize": 8,
+      "fontColor": "#FFFFFF",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "monospace",
+      "rotation": 0,
+      "roundedBackground": true
+    },
+    {
+      "id": "freeText_1768133741000_75f85739",
+      "text": "192.168.40.1 - vlan40",
+      "position": {
+        "x": 381,
+        "y": 264
+      },
+      "fontSize": 8,
+      "fontColor": "#FFFFFF",
+      "backgroundColor": "transparent",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "monospace",
+      "rotation": 0,
+      "roundedBackground": true
+    }
+  ],
+  "freeShapeAnnotations": [],
+  "groupStyleAnnotations": [],
+  "networkNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "leaf2",
+      "position": {
+        "x": 161,
+        "y": 147
+      }
+    },
+    {
+      "id": "host3",
+      "position": {
+        "x": 217,
+        "y": 217
+      }
+    },
+    {
+      "id": "spine2",
+      "position": {
+        "x": 217,
+        "y": -21
+      }
+    },
+    {
+      "id": "spine1",
+      "position": {
+        "x": 21,
+        "y": -21
+      }
+    },
+    {
+      "id": "leaf1",
+      "position": {
+        "x": -91,
+        "y": 147
+      }
+    },
+    {
+      "id": "host1",
+      "position": {
+        "x": -91,
+        "y": 217
+      }
+    },
+    {
+      "id": "host2",
+      "position": {
+        "x": 77,
+        "y": 217
+      }
+    },
+    {
+      "id": "leaf3",
+      "position": {
+        "x": 371,
+        "y": 147
+      }
+    },
+    {
+      "id": "host4",
+      "position": {
+        "x": 371,
+        "y": 217
+      }
+    }
+  ],
+  "edgeAnnotations": [],
+  "aliasEndpointAnnotations": [],
+  "viewerSettings": {}
+}
