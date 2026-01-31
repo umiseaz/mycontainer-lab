@@ -23,7 +23,7 @@ Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
 ```
 
 
-# Re-enable Later (If Needed), If someday you want Hyper-V back:  --- neede for containerlab
+# Re-enable Later (If Needed), If someday you want Hyper-V back:  --- *** This is needed for ContainerLab. ***
 run cmd
 ```
 bcdedit /set hypervisorlaunchtype auto
