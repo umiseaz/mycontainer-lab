@@ -31,4 +31,4 @@ bcdedit /set hypervisorlaunchtype auto
 
 
 # Verify VT-x Is Available
-- should enabea alreaduy prevuouly via bios
+- Should already be enabled previously via BIOS
