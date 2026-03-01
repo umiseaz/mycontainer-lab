@@ -33,3 +33,17 @@ bcdedit /set hypervisorlaunchtype auto
 
 # Verify VT-x Is Available
 - Should already be enabled previously via BIOS
+
+# run wsl and verify kvm is running for the containerlab to work
+```
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\T7810> wsl
+khau@DESKTOP-FTEM5HO:/mnt/c/Users/T7810$ ls -l /dev/kvm
+crw-rw---- 1 root kvm 10, 232 Mar  1 12:01 /dev/kvm
+khau@DESKTOP-FTEM5HO:/mnt/c/Users/T7810$
+
+```
