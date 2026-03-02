@@ -79,6 +79,12 @@ clab deploy -t clab-junos-mclag-arista-clab.yaml
 clab inspect --all
 clab destroy -t clab-junos-mclag-arista-clab.yaml
 clab save -t clab-junos-mclag-arista-clab.yaml
+
+docker ps
+docker images
+docker logs -f b5d669d74f7f
+docker import /mnt/c/Users/T7810/Downloads/cEOS-lab-4.32.0F.tar.xz ceos:4.32.0F
+
 ```
 ### example
 ```
