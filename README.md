@@ -72,3 +72,46 @@ ghcr.io/kaelemc/wireshark-vnc-docker   latest     4cebbe954b93   7 months ago   
 ghcr.io/siemens/ghostwire              latest     18664310d22f   19 months ago   36.5MB
 ghcr.io/siemens/packetflix             latest     6bed7a0d2a95   2 years ago     122MB
 ```
+# containerlab
+### useful command
+```
+clab deploy -t clab-junos-mclag-arista-clab.yaml
+clab inspect --all
+clab destroy -t clab-junos-mclag-arista-clab.yaml
+```
+### example
+```
+clab@DESKTOP-FTEM5HO:~/mycontainer-lab$ clab deploy -t clab-junos-mclag-arista-clab.yaml
+08:23:12 INFO Containerlab started version=0.72.0
+08:23:12 INFO Parsing & checking topology file=clab-junos-mclag-arista-clab.yaml
+08:23:12 INFO Creating lab directory path=/home/clab/mycontainer-lab/clab-junos-mclag-arista-lab
+08:23:13 INFO Creating container name=junos1
+08:23:13 INFO Creating container name=junos2
+08:23:13 INFO Creating container name=ceos
+08:23:14 INFO Running postdeploy actions for Arista cEOS 'ceos' node
+08:23:14 INFO Created link: junos1:eth1 ▪┄┄▪ junos2:eth1
+08:23:14 INFO Created link: junos1:eth2 ▪┄┄▪ junos2:eth2
+08:23:14 INFO Created link: junos1:eth3 ▪┄┄▪ junos2:eth3
+08:23:14 INFO Created link: junos1:eth4 ▪┄┄▪ junos2:eth4
+08:23:14 INFO Created link: junos2:eth6 ▪┄┄▪ ceos:eth2
+08:23:14 INFO Created link: junos1:eth5 ▪┄┄▪ ceos:eth1
+08:23:59 INFO Adding host entries path=/etc/hosts
+08:23:59 INFO Adding SSH config for nodes path=/etc/ssh/ssh_config.d/clab-junos-mclag-arista-lab.conf
+08:23:59 INFO containerlab version
+  🎉=
+  │ A newer containerlab version (0.73.0) is available!
+  │ Release notes: https://containerlab.dev/rn/0.73/
+  │ Run 'clab version upgrade' or see https://containerlab.dev/install/ for other installation options.
+╭────────────────────────────────────┬─────────────────────────────────────────┬────────────────────┬───────────────────╮
+│                Name                │                Kind/Image               │        State       │   IPv4/6 Address  │
+├────────────────────────────────────┼─────────────────────────────────────────┼────────────────────┼───────────────────┤
+│ clab-junos-mclag-arista-lab-ceos   │ arista_ceos                             │ running            │ 172.20.20.2       │
+│                                    │ ceos:4.32.0F                            │                    │ 3fff:172:20:20::2 │
+├────────────────────────────────────┼─────────────────────────────────────────┼────────────────────┼───────────────────┤
+│ clab-junos-mclag-arista-lab-junos1 │ juniper_vjunosswitch                    │ running            │ 172.20.20.3       │
+│                                    │ vrnetlab/juniper_vjunos-switch:23.1R1.8 │ (health: starting) │ 3fff:172:20:20::3 │
+├────────────────────────────────────┼─────────────────────────────────────────┼────────────────────┼───────────────────┤
+│ clab-junos-mclag-arista-lab-junos2 │ juniper_vjunosswitch                    │ running            │ 172.20.20.4       │
+│                                    │ vrnetlab/juniper_vjunos-switch:23.1R1.8 │ (health: starting) │ 3fff:172:20:20::4 │
+╰────────────────────────────────────┴─────────────────────────────────────────┴────────────────────┴───────────────────╯
+```
