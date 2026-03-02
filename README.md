@@ -122,3 +122,12 @@ clab@DESKTOP-FTEM5HO:~/mycontainer-lab$ clab deploy -t clab-junos-mclag-arista-c
 │                                    │ vrnetlab/juniper_vjunos-switch:23.1R1.8 │ (health: starting) │ 3fff:172:20:20::4 │
 ╰────────────────────────────────────┴─────────────────────────────────────────┴────────────────────┴───────────────────╯
 ```
+
+# containerlab - ssh credential #2026-03-02
+```
+arista ceos
+admin/admin
+
+junos vjunos switch
+admin/admin@123
+```
