@@ -3,37 +3,37 @@ leaf1:
     username: admin
     password: admin@123
     platform: juniper_vjunosswitch
-    hostname: 172.20.20.7
+    hostname: 172.20.20.5
 leaf2:
     username: admin
     password: admin@123
     platform: juniper_vjunosswitch
-    hostname: 172.20.20.8
+    hostname: 172.20.20.10
 leaf3:
     username: admin
     password: admin@123
     platform: juniper_vjunosswitch
-    hostname: 172.20.20.9
+    hostname: 172.20.20.8
 spine1:
     username: admin
     password: admin@123
     platform: juniper_vjunosswitch
-    hostname: 172.20.20.10
+    hostname: 172.20.20.6
 spine2:
     username: admin
     password: admin@123
     platform: juniper_vjunosswitch
-    hostname: 172.20.20.6
+    hostname: 172.20.20.9
 host1:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.5
+    hostname: 172.20.20.4
 host2:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.4
+    hostname: 172.20.20.2
 host3:
     username: 
     password: 
@@ -43,4 +43,4 @@ host4:
     username: 
     password: 
     platform: linux
-    hostname: 172.20.20.2
+    hostname: 172.20.20.7

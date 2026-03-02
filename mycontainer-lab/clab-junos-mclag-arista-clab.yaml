@@ -1,0 +1,32 @@
+name: junos-mclag-arista-lab
+
+topology:
+  nodes:
+    # MC-LAG peers
+    junos1:
+      kind: juniper_vjunosswitch
+      image: vrnetlab/juniper_vjunos-switch:23.1R1.8
+
+    junos2:
+      kind: juniper_vjunosswitch
+      image: vrnetlab/juniper_vjunos-switch:23.1R1.8
+
+    # Downstream Arista switch
+    ceos:
+      kind: arista_ceos
+      image: ceos:4.32.0F
+
+  links:
+    # ICL between Juniper peers
+    - endpoints: ["junos1:eth1", "junos2:eth1"]
+    - endpoints: ["junos1:eth2", "junos2:eth2"]
+
+    # ICCP between Juniper peers
+    - endpoints: ["junos1:eth3", "junos2:eth3"]
+    - endpoints: ["junos1:eth4", "junos2:eth4"]
+
+    # Arista dual-homed links to MC-LAG
+    - endpoints: ["junos1:eth5", "ceos:eth1"]
+    - endpoints: ["junos2:eth5", "ceos:eth2"]
+
+# eth1 == ge-0/0/0, eth5 == ge-0/0/4

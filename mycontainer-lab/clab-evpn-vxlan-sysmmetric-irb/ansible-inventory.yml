@@ -12,22 +12,22 @@ all:
         ansible_password: admin@123
       hosts:
         clab-evpn-vxlan-sysmmetric-irb-leaf1:
-          ansible_host: 172.20.20.7
+          ansible_host: 172.20.20.5
         clab-evpn-vxlan-sysmmetric-irb-leaf2:
-          ansible_host: 172.20.20.8
-        clab-evpn-vxlan-sysmmetric-irb-leaf3:
-          ansible_host: 172.20.20.9
-        clab-evpn-vxlan-sysmmetric-irb-spine1:
           ansible_host: 172.20.20.10
-        clab-evpn-vxlan-sysmmetric-irb-spine2:
+        clab-evpn-vxlan-sysmmetric-irb-leaf3:
+          ansible_host: 172.20.20.8
+        clab-evpn-vxlan-sysmmetric-irb-spine1:
           ansible_host: 172.20.20.6
+        clab-evpn-vxlan-sysmmetric-irb-spine2:
+          ansible_host: 172.20.20.9
     linux:
       hosts:
         clab-evpn-vxlan-sysmmetric-irb-host1:
-          ansible_host: 172.20.20.5
-        clab-evpn-vxlan-sysmmetric-irb-host2:
           ansible_host: 172.20.20.4
+        clab-evpn-vxlan-sysmmetric-irb-host2:
+          ansible_host: 172.20.20.2
         clab-evpn-vxlan-sysmmetric-irb-host3:
           ansible_host: 172.20.20.3
         clab-evpn-vxlan-sysmmetric-irb-host4:
-          ansible_host: 172.20.20.2
+          ansible_host: 172.20.20.7
