@@ -78,6 +78,7 @@ ghcr.io/siemens/packetflix             latest     6bed7a0d2a95   2 years ago    
 clab deploy -t clab-junos-mclag-arista-clab.yaml
 clab inspect --all
 clab destroy -t clab-junos-mclag-arista-clab.yaml
+clab save -t clab-junos-mclag-arista-clab.yaml
 ```
 ### example
 ```
