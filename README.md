@@ -52,4 +52,12 @@ khau@DESKTOP-FTEM5HO:/mnt/c/Users/T7810$
 Bash
 ```
 cp "/mnt/c/Users/T7810/Downloads/cEOS-lab-4.32.0F.tar.xz" .
+
+clab@DESKTOP-FTEM5HO:~/mycontainer-lab$ docker import cEOS-lab-4.32.0F.tar.xz ceos:4.32.0F
+sha256:7a8a06ac2b33f1167c968adcd7857afa73615ff37a986d17eacc5dd7c7266184
+
+or
+
+clab@DESKTOP-FTEM5HO:~/mycontainer-lab$ docker import /mnt/c/Users/T7810/Downloads/cEOS-lab-4.32.0F.tar.xz ceos:4.32.0F
+
 ```
