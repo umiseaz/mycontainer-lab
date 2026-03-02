@@ -47,3 +47,9 @@ crw-rw---- 1 root kvm 10, 232 Mar  1 12:01 /dev/kvm
 khau@DESKTOP-FTEM5HO:/mnt/c/Users/T7810$
 
 ```
+
+# To move that specific Arista cEOS image into your current Containerlab directory, run this command inside your Containerlab terminal:
+Bash
+```
+cp "/mnt/c/Users/T7810/Downloads/cEOS-lab-4.32.0F.tar.xz" .
+```
