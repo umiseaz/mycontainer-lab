@@ -61,3 +61,14 @@ or
 clab@DESKTOP-FTEM5HO:~/mycontainer-lab$ docker import /mnt/c/Users/T7810/Downloads/cEOS-lab-4.32.0F.tar.xz ceos:4.32.0F
 
 ```
+```
+clab@DESKTOP-FTEM5HO:~/mycontainer-lab$ docker images
+REPOSITORY                             TAG        IMAGE ID       CREATED         SIZE
+ceos                                   4.32.0F    7a8a06ac2b33   2 minutes ago   2.04GB
+vrnetlab/juniper_vjunos-switch         23.1R1.8   78a03da070df   2 months ago    4.45GB
+alpine                                 latest     e7b39c54cdec   2 months ago    8.44MB
+ghcr.io/srl-labs/clab-io-draw          latest     3c1b20095dba   5 months ago    172MB
+ghcr.io/kaelemc/wireshark-vnc-docker   latest     4cebbe954b93   7 months ago    554MB
+ghcr.io/siemens/ghostwire              latest     18664310d22f   19 months ago   36.5MB
+ghcr.io/siemens/packetflix             latest     6bed7a0d2a95   2 years ago     122MB
+```
