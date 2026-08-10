@@ -1,0 +1,5 @@
+MAX_SIZE 65536
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE card_fsm__smil_msc
+NOPIPE card_fsm__smil_msc

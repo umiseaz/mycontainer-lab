@@ -1,0 +1,7 @@
+MAX_SIZE 4096
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE fsm_test_capi_server_conn
+NOPIPE fsm_test_capi_server_conn
+TRACE fsm_test_capi_server_conn/fsm_test_server_cipc_conn
+NOPIPE fsm_test_capi_server_conn/fsm_test_server_cipc_conn

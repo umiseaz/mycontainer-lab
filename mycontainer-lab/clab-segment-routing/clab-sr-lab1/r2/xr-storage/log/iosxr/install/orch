@@ -1,0 +1,66 @@
+2026-08-10 14:28:18,125 UTC   1567 [orch.__main__       :  32] INF: -------------------------------------------------------------------------------
+2026-08-10 14:28:18,126 UTC   1567 [orch.__main__       :  33] INF: Started
+2026-08-10 14:28:18,882 UTC   1567 [orch.__main__       : 316] INF: Cookie access retry count 0
+2026-08-10 14:28:21,884 UTC   1567 [orch.__main__       : 316] INF: Cookie access retry count 1
+2026-08-10 14:28:24,887 UTC   1567 [orch.__main__       : 534] INF: Creating volatile tmp dir at /var/volatile/tmp/cisco/iosxr/install
+2026-08-10 14:28:24,913 UTC   1567 [orch.reload.sm      : 192] INF: Attempting to connect to shelf manager. rc is 0
+2026-08-10 14:28:24,913 UTC   1567 [orch.persist.Persist:1669] INF: Attempting to load previous state data from path /var/opt/cisco/iosxr/install/mirror/feature-db-state
+2026-08-10 14:28:24,914 UTC   1567 [orch.persist.Persist:1675] INF: No state data file '/var/opt/cisco/iosxr/install/mirror/feature-db-state' exists
+2026-08-10 14:28:25,048 UTC   1567 [orch.config         : 191] INF: Registering config verifier
+2026-08-10 14:28:25,062 UTC   1567 [orch.config         :  87] INF: Error (Failed to get done: 'sysdb' detected the 'warning' condition 'A SysDB client tried to access a nonexistent item or list an empty directory') when reading startup done path. Treating as if done value=False
+2026-08-10 14:28:25,067 UTC   1567 [orch.features.infra.comms:  86] INF: Creating Endpoint
+2026-08-10 14:28:25,070 UTC   1567 [orch.features.infra.comms: 121] INF: Publishing endpoint
+2026-08-10 14:28:25,087 UTC   1567 [orch.alarms         :  43] INF: Initialising FM at node: 0/RP0/CPU0
+2026-08-10 14:28:25,117 UTC   1567 [orch.disaster_recovery: 161] INF: This platform does not have a DR partition
+2026-08-10 14:28:25,118 UTC   1567 [orch.persist.Persist:1669] INF: Attempting to load previous state data from path /var/opt/cisco/iosxr/install/mirror/state
+2026-08-10 14:28:25,118 UTC   1567 [orch.persist.Persist:1675] INF: No state data file '/var/opt/cisco/iosxr/install/mirror/state' exists
+2026-08-10 14:28:25,119 UTC   1567 [orch.persist.Persist:1669] INF: Attempting to load previous state data from path /var/opt/cisco/iosxr/install/mirror/orchstate
+2026-08-10 14:28:25,119 UTC   1567 [orch.persist.Persist:1675] INF: No state data file '/var/opt/cisco/iosxr/install/mirror/orchstate' exists
+2026-08-10 14:28:25,120 UTC   1567 [orch.persist.Persist: 307] WAR: Reimage history directory unexpectedly removed, recreating
+2026-08-10 14:28:25,121 UTC   1567 [orch.engine.fsm     : 201] INF: Resuming with no state record
+2026-08-10 14:28:25,143 UTC   1567 [orch.features.infra.comms: 171] INF: Finished publishing endpoint, exception None
+2026-08-10 14:28:25,146 UTC   1567 [orch.oper.pq        :3284] INF: Base gISO build metadata file does not exist.
+2026-08-10 14:28:25,147 UTC   1567 [orch.oper.pq        : 556] INF: Falling back to using installed packages
+2026-08-10 14:28:25,149 UTC   1567 [cmn.yum.Query       : 379] INF: [EE64] Running ['/usr/bin/python3', '/usr/bin/dnf', '--disableplugin=local', '-c', '/etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch', 'list', '-y', '--disablerepo=*', '--enablerepo=iosxr_install_internal', '--no-wrap', '--refresh', '--', 'installed']
+2026-08-10 14:28:25,158 UTC   1567 [orch.repo           :1557] INF: Not creating initial rollback point as rollback is disabled
+2026-08-10 14:28:25,169 UTC   1567 [orch.reload         : 346] INF: Connect callback from Shelf Manager. Status 0
+2026-08-10 14:28:25,169 UTC   1567 [orch.reload         : 348] INF: Connected to Shelf Manager.
+2026-08-10 14:28:25,170 UTC   1567 [comms.Orch          : 485] INF: Received AGENT_HELLO unsolicited message from 0/RP0/CPU0
+2026-08-10 14:28:25,173 UTC   1567 [orch.engine.monitor : 559] INF: Node 0/RP0/CPU0 has trans-in-progress marker file: False, expected: False - ok
+2026-08-10 14:28:25,173 UTC   1567 [orch.engine.monitor : 599] INF: Node 0/RP0/CPU0 has op-in-progress marker file: False, packaging operation in progress: False - ok
+2026-08-10 14:28:25,174 UTC   1567 [orch.engine.monitor : 623] INF: Node 0/RP0/CPU0 has software cookie 'fixed-platform-cookie', expected 'fixed-platform-cookie' - matches
+2026-08-10 14:28:25,174 UTC   1567 [orch.engine.monitor : 656] INF: Node 0/RP0/CPU0 has giso_label '', expected '' - 'matches'
+2026-08-10 14:28:25,176 UTC   1567 [orch.oper.pq        : 588] INF: Falling back to using installed packages
+2026-08-10 14:28:25,177 UTC   1567 [comms.Orch          : 167] INF: Sending PKG_QUERY request message (to nodes [Node(0/RP0/CPU0)]): {"category": 19, "msg_type": 1, "error": null, "msg_data": {"query": 2, "inputs": [], "wait": false, "get_security_data": false, "category": 19}, "req_id": "0xec1323d800000001", "nodes": ["0/RP0/CPU0"], "warnings": null}
+2026-08-10 14:28:25,747 UTC   1567 [comms.Orch          : 455] INF: Received PKG_QUERY response message to request 0xec1323d800000001 from 0/RP0/CPU0: b'{"category": 19, "msg_type": 2, "error": null, "msg_data": {"yum_output": null, "yum_busy_agt": false, "yum_busy_pid": 1850, "timestamp": null, "category": 19}, "req_id": "0xec1323d800000001", "nodes": null, "warnings": null}'
+2026-08-10 14:28:25,754 UTC   1567 [orch.oper.pq        :1324] ERR: Request error due to package manager in use by another process pid 1850 on node 0/RP0/CPU0
+2026-08-10 14:28:25,754 UTC   1567 [cmn.cache           : 438] ERR: cache: 6: Not caching result for <function PkgQuery._ocplat_get_packages_inner at 0x77e3a2045280>(args: (<iosxr.install._orch._oper._pkgs.PkgQuery object at 0x77e3a1e35550>,), kwargs: {'node': '0_RP0_CPU0'}) as exception hit
+Traceback (most recent call last):
+  File "infra/install/src/_cmn/cache.py", line 664, in wrap_async
+  File "infra/install/src/_cmn/cache.py", line 177, in load
+KeyError: _CacheKey(fn=<function PkgQuery._ocplat_get_packages_inner at 0x77e3a2045280>, args=(<iosxr.install._orch._oper._pkgs.PkgQuery object at 0x77e3a1e35550>,), kwargs={'node': '0_RP0_CPU0'})
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 586, in committed
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 217, in load
+FileNotFoundError: [Errno 2] No such file or directory: '/var/opt/cisco/iosxr/install/mirror/committed-pkgs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "infra/install/src/_cmn/cache.py", line 436, in _create_cache_result
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 2730, in _ocplat_get_packages_inner
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 589, in committed
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 1404, in pkgmgr
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 1558, in _send_query
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 1430, in _raise_and_delete_exception
+iosxr.install._cmn.excs.PkgMgrBusyError: 'Install' detected the 'try again' condition 'The package manager is currently busy, please try again in a few moments'
+2026-08-10 14:28:25,967 UTC   1567 [cmn.yum.Query       : 492] INF: [EE64] Subprocess completed successfully
+2026-08-10 14:28:25,971 UTC   1567 [cmn.yum.Query       : 663] INF: [EE64] Subprocess exited with success
+2026-08-10 14:28:25,976 UTC   1567 [orch.oper.pq        : 683] INF: Filtering disabled packages path: None
+2026-08-10 14:28:25,986 UTC   1567 [cmn.subprocs.exec   : 379] INF: [5B4F] Running ['rpm', '-qa', '--queryformat', '%{name}-%|epoch?{%{epoch}}:{0}|:%{version}-%{release}.%{arch}`%{packager}`%{buildhost}`%{buildtime}\n'] as user iosxr
+2026-08-10 14:28:27,021 UTC   1567 [cmn.subprocs.exec   : 492] INF: [5B4F] Subprocess completed successfully
+2026-08-10 14:28:38,401 UTC   1567 [orch.config         : 264] INF: Cleaned up /var/opt/cisco/iosxr/install/giso_cfg_marker
+2026-08-10 14:28:38,402 UTC   1567 [orch.config         : 264] INF: Cleaned up /var/xr/config/config/running/alternate_cfg/giso.cfg

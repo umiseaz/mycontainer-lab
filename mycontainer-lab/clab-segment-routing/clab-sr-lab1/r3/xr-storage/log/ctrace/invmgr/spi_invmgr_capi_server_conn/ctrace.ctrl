@@ -1,0 +1,7 @@
+MAX_SIZE 4096
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE spi_invmgr_capi_server_conn
+NOPIPE spi_invmgr_capi_server_conn
+TRACE spi_invmgr_capi_server_conn/spi_invmgr_server_cipc_conn
+NOPIPE spi_invmgr_capi_server_conn/spi_invmgr_server_cipc_conn

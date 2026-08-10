@@ -1,0 +1,17 @@
+[2026-08-10 14:28:31,384] DEBUG [script_watcher]:: AAA_USER env var set to root
+[2026-08-10 14:28:31,388] DEBUG [script_watcher]:: Starting yang thread:yang_eventloop
+[2026-08-10 14:28:31,390] DEBUG [script_watcher]:: Starting config verifier thread: config_verifier_loop
+[2026-08-10 14:28:31,391] DEBUG [script_watcher]:: Starting config notifier thread: config_notifier_loop
+[2026-08-10 14:28:31,404] DEBUG [script_watcher]:: Starting scheduler thread: scheduler_loop
+[2026-08-10 14:28:31,391] INFO [config_verifier]:: Config verifier start
+[2026-08-10 14:28:31,440] INFO [config_verifier]:: Config verifier reg done. Starting event manager loop
+[2026-08-10 14:28:31,458] INFO [script_watcher]:: Script management directory /harddisk:/mirror/script-mgmt/exec not present. Creating
+[2026-08-10 14:28:31,485] INFO [script_watcher]:: Script management directory /harddisk:/mirror/script-mgmt/process not present. Creating
+[2026-08-10 14:28:31,512] INFO [script_watcher]:: Script management directory /harddisk:/mirror/script-mgmt/config not present. Creating
+[2026-08-10 14:28:31,521] INFO [script_watcher]:: Script management directory /harddisk:/mirror/script-mgmt/eem not present. Creating
+[2026-08-10 14:28:31,525] INFO [script_watcher]:: Script management directory /harddisk:/mirror/script-mgmt/snmp not present. Creating
+[2026-08-10 14:28:31,531] INFO [script_watcher]:: Script management directory /harddisk:/mirror/script-mgmt/precommit not present. Creating
+[2026-08-10 14:28:31,533] INFO [script_watcher]:: ScriptWatcher: Init DB
+[2026-08-10 14:28:31,817] INFO [script_watcher]:: Verifying script repository
+[2026-08-10 14:28:31,817] INFO [script_watcher]:: Verifying DB entries
+[2026-08-10 14:28:32,014] INFO [script_watcher]:: ScriptWatcher: Starting monitoring

@@ -1,0 +1,5 @@
+MAX_SIZE 2097152
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE client_debug
+NOPIPE client_debug

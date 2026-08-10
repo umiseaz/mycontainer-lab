@@ -1,0 +1,5 @@
+MAX_SIZE 1048576
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE inv_capi_handle
+NOPIPE inv_capi_handle

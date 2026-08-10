@@ -1,0 +1,7 @@
+MAX_SIZE 65536
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE dsr-errors/dsr-errors
+NOPIPE dsr-errors/dsr-errors
+TRACE dsr-errors
+NOPIPE dsr-errors

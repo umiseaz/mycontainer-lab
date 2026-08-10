@@ -1,0 +1,262 @@
+Logging flow  started at Mon Aug 10 14:28:14 UTC 2026...
++ '[' -f /etc/rc.d/init.d/pd-functions ']'
++ source /etc/rc.d/init.d/pd-functions
+++ PD_FUNCTION_SOURCED=1
+++ '[' -f /pkg/etc/get_card_inst.sh ']'
+++ source /pkg/etc/get_card_inst.sh
++ PROCNAME=/pkg/etc/pm_startup.sh
+++ ps -e
+++ grep processmgr
+++ awk '{print $1}'
++ kill -9
++ export PKG_PATH=/pkg
++ PKG_PATH=/pkg
++ source /pkg/etc/xr_startup_envs.sh
+++ am_i_thinxr
+++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
++++ id -u
+++ '[' 0 = 0 ']'
+++ IS_ROOT=true
+++ declare -F in_xrnns
+++ '[' 1 -eq 0 ']'
+++ am_i_thinxr
+++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
+++ export PKG_PATH=/pkg
+++ PKG_PATH=/pkg
+++ [[ true == true ]]
++++ ulimit -H -n
+++ '[' 8192 -gt 8192 ']'
+++ ulimit -H -n 8192
+++ ulimit -n 8192
+++ ulimit -c 1000000
+++ ulimit -q unlimited
+++ ulimit -s 1024
++++ echo /pkg/sbin:/pkg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ grep /pkg/bin
+++ '[' '!' /pkg/sbin:/pkg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin ']'
++++ echo /pkg/sbin:/pkg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ grep /pkg/sbin
+++ '[' '!' /pkg/sbin:/pkg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin ']'
+++ am_i_thinxr
+++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
+++ export LD_LIBRARY_PATH=/pkg/lib:/pkg/lib/cerrno:/pkg/lib/mib:/pkg/lib/spp_plugins
+++ LD_LIBRARY_PATH=/pkg/lib:/pkg/lib/cerrno:/pkg/lib/mib:/pkg/lib/spp_plugins
+++ am_i_thinxr
+++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
+++ export LD_LIBRARY_PATH=/pkg/lib/override:/pkg/lib:/pkg/lib/cerrno:/pkg/lib/mib:/pkg/lib/spp_plugins:/pkg/thirdparty_lib/lib64:/pkg/thirdparty_lib/lib:/pkg/thirdparty_lib/usr/lib64:/pkg/thirdparty_lib/usr/lib
+++ LD_LIBRARY_PATH=/pkg/lib/override:/pkg/lib:/pkg/lib/cerrno:/pkg/lib/mib:/pkg/lib/spp_plugins:/pkg/thirdparty_lib/lib64:/pkg/thirdparty_lib/lib:/pkg/thirdparty_lib/usr/lib64:/pkg/thirdparty_lib/usr/lib
+++ export 'MODPROBE_OPTIONS=-d /pkg/thirdparty_lib'
+++ MODPROBE_OPTIONS='-d /pkg/thirdparty_lib'
+++ export INSTANCE_ID=1
+++ INSTANCE_ID=1
+++ export ETC_PATH=/pkg/etc
+++ ETC_PATH=/pkg/etc
+++ export BGP_PATH=/pkg/bgp
+++ BGP_PATH=/pkg/bgp
+++ export BOOT_DIR=pkg/boot/boot.d
+++ BOOT_DIR=pkg/boot/boot.d
+++ export BOOT_IOX=1
+++ BOOT_IOX=1
+++ export CONFIGS_PATH=/pkg/configs
+++ CONFIGS_PATH=/pkg/configs
+++ export CONFREG=0
+++ CONFREG=0
+++ export CONNECT_COMMAND=
+++ CONNECT_COMMAND=
+++ export CONNECT_DIR=pkg/boot/connect.d
+++ CONNECT_DIR=pkg/boot/connect.d
+++ export DIR=pkg/boot/boot.d
+++ DIR=pkg/boot/boot.d
+++ export IM_RULES_PATH=/pkg/rules
+++ IM_RULES_PATH=/pkg/rules
+++ export INIT_STARTUP_PATH=/pkg/init.d
+++ INIT_STARTUP_PATH=/pkg/init.d
+++ am_i_thinxr
+++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
+++ export IOX=1
+++ IOX=1
+++ export IOX_DISABLE_STARTUP=0
+++ IOX_DISABLE_STARTUP=0
+++ export IOX_DISABLE_SYSMGR=0
+++ IOX_DISABLE_SYSMGR=0
+++ export IOX_NO_CONFIG=0
+++ IOX_NO_CONFIG=0
+++ export LOADPATH=/pkg
+++ LOADPATH=/pkg
+++ export MIB_LIBRARY_PATH=/pkg/lib/mib
+++ MIB_LIBRARY_PATH=/pkg/lib/mib
+++ export MIB_PATH=/pkg/mib
+++ MIB_PATH=/pkg/mib
+++ export NODE_WATCHER=1
+++ NODE_WATCHER=1
+++ export PARSER_PATH=/pkg/parser
+++ PARSER_PATH=/pkg/parser
+++ export PARTITIONS_PATH=/pkg/partitions
+++ PARTITIONS_PATH=/pkg/partitions
+++ export PLACEMENT_PATH=/pkg/placement
+++ PLACEMENT_PATH=/pkg/placement
+++ export SCHEMA_PATH=schema
+++ SCHEMA_PATH=schema
+++ export STARTUP_PATH=/pkg/startup
+++ STARTUP_PATH=/pkg/startup
+++ export SYSMGR_NODE=
+++ SYSMGR_NODE=
+++ export TTY_UART_DRIVER=libslinux.dll
+++ TTY_UART_DRIVER=libslinux.dll
+++ am_i_thinxr
+++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
++++ id -un
+++ export AAA_USER=root
+++ AAA_USER=root
+++ export PCIE_DEBUG=2
+++ PCIE_DEBUG=2
+++ export MEMDBG_BLACKLIST=fib_mgr:npu_driver:bundlemgr_distrib:optics_driver:fia_driver:optics_driver_0:optics_driver_1:optics_driver_2:optics_driver_3:optics_driver_4:optics_driver_5:optics_driver_6:optics_driver_7
+++ MEMDBG_BLACKLIST=fib_mgr:npu_driver:bundlemgr_distrib:optics_driver:fia_driver:optics_driver_0:optics_driver_1:optics_driver_2:optics_driver_3:optics_driver_4:optics_driver_5:optics_driver_6:optics_driver_7
+++ export LVM_SUPPRESS_FD_WARNINGS=1
+++ LVM_SUPPRESS_FD_WARNINGS=1
+++ export MEMDBG_ENABLE=1
+++ MEMDBG_ENABLE=1
+++ '[' -f /pkg/etc/sanitizer_env.sh ']'
+++ '[' -e /pkg/bin/procnto ']'
+++ am_i_thinxr
+++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
++ export JOB_ID=51
++ JOB_ID=51
++ . /etc/init.d/calvados_bootstrap.cfg
++ '[' -z '' ']'
++ XR_RLIMIT=300
++ export RLIMIT=300
++ RLIMIT=300
++ counter_file=/dev/shmem/processmgr_respawn_count
++ '[' -f /dev/shmem/processmgr_respawn_count ']'
++ echo 1
++ export RESPAWN_COUNT=1
++ RESPAWN_COUNT=1
++ counter_file=/dev/shmem/processmgr_exit_status
++ '[' -f /dev/shmem/processmgr_exit_status ']'
++ export EXIT_STATUS=0
++ EXIT_STATUS=0
++ mkdir -m 777 -p /var/lib/malloc_stat
++ export LD_PRELOAD=/pkg/lib/libmemdbg.so
++ LD_PRELOAD=/pkg/lib/libmemdbg.so
++ export MEMDBG_ENABLE=1
++ MEMDBG_ENABLE=1
++ chmod 755 /tmp/set_env_vars
++ source /tmp/set_env_vars
+++ source /pkg/etc/xr_startup_envs.sh
++++ am_i_thinxr
++++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
+++++ id -u
++++ '[' 0 = 0 ']'
++++ IS_ROOT=true
++++ declare -F in_xrnns
++++ '[' 1 -eq 0 ']'
++++ am_i_thinxr
++++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
++++ export PKG_PATH=/pkg
++++ PKG_PATH=/pkg
++++ [[ true == true ]]
+++++ ulimit -H -n
++++ '[' 8192 -gt 8192 ']'
++++ ulimit -H -n 8192
++++ ulimit -n 8192
++++ ulimit -c 1000000
++++ ulimit -q unlimited
++++ ulimit -s 1024
+++++ echo /pkg/sbin:/pkg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++++ grep /pkg/bin
++++ '[' '!' /pkg/sbin:/pkg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin ']'
+++++ echo /pkg/sbin:/pkg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++++ grep /pkg/sbin
++++ '[' '!' /pkg/sbin:/pkg/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin ']'
++++ am_i_thinxr
++++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
++++ export LD_LIBRARY_PATH=/pkg/lib:/pkg/lib/cerrno:/pkg/lib/mib:/pkg/lib/spp_plugins
++++ LD_LIBRARY_PATH=/pkg/lib:/pkg/lib/cerrno:/pkg/lib/mib:/pkg/lib/spp_plugins
++++ am_i_thinxr
++++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
++++ export LD_LIBRARY_PATH=/pkg/lib/override:/pkg/lib:/pkg/lib/cerrno:/pkg/lib/mib:/pkg/lib/spp_plugins:/pkg/thirdparty_lib/lib64:/pkg/thirdparty_lib/lib:/pkg/thirdparty_lib/usr/lib64:/pkg/thirdparty_lib/usr/lib
++++ LD_LIBRARY_PATH=/pkg/lib/override:/pkg/lib:/pkg/lib/cerrno:/pkg/lib/mib:/pkg/lib/spp_plugins:/pkg/thirdparty_lib/lib64:/pkg/thirdparty_lib/lib:/pkg/thirdparty_lib/usr/lib64:/pkg/thirdparty_lib/usr/lib
++++ export 'MODPROBE_OPTIONS=-d /pkg/thirdparty_lib'
++++ MODPROBE_OPTIONS='-d /pkg/thirdparty_lib'
++++ export INSTANCE_ID=1
++++ INSTANCE_ID=1
++++ export ETC_PATH=/pkg/etc
++++ ETC_PATH=/pkg/etc
++++ export BGP_PATH=/pkg/bgp
++++ BGP_PATH=/pkg/bgp
++++ export BOOT_DIR=pkg/boot/boot.d
++++ BOOT_DIR=pkg/boot/boot.d
++++ export BOOT_IOX=1
++++ BOOT_IOX=1
++++ export CONFIGS_PATH=/pkg/configs
++++ CONFIGS_PATH=/pkg/configs
++++ export CONFREG=0
++++ CONFREG=0
++++ export CONNECT_COMMAND=
++++ CONNECT_COMMAND=
++++ export CONNECT_DIR=pkg/boot/connect.d
++++ CONNECT_DIR=pkg/boot/connect.d
++++ export DIR=pkg/boot/boot.d
++++ DIR=pkg/boot/boot.d
++++ export IM_RULES_PATH=/pkg/rules
++++ IM_RULES_PATH=/pkg/rules
++++ export INIT_STARTUP_PATH=/pkg/init.d
++++ INIT_STARTUP_PATH=/pkg/init.d
++++ am_i_thinxr
++++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
++++ export IOX=1
++++ IOX=1
++++ export IOX_DISABLE_STARTUP=0
++++ IOX_DISABLE_STARTUP=0
++++ export IOX_DISABLE_SYSMGR=0
++++ IOX_DISABLE_SYSMGR=0
++++ export IOX_NO_CONFIG=0
++++ IOX_NO_CONFIG=0
++++ export LOADPATH=/pkg
++++ LOADPATH=/pkg
++++ export MIB_LIBRARY_PATH=/pkg/lib/mib
++++ MIB_LIBRARY_PATH=/pkg/lib/mib
++++ export MIB_PATH=/pkg/mib
++++ MIB_PATH=/pkg/mib
++++ export NODE_WATCHER=1
++++ NODE_WATCHER=1
++++ export PARSER_PATH=/pkg/parser
++++ PARSER_PATH=/pkg/parser
++++ export PARTITIONS_PATH=/pkg/partitions
++++ PARTITIONS_PATH=/pkg/partitions
++++ export PLACEMENT_PATH=/pkg/placement
++++ PLACEMENT_PATH=/pkg/placement
++++ export SCHEMA_PATH=schema
++++ SCHEMA_PATH=schema
++++ export STARTUP_PATH=/pkg/startup
++++ STARTUP_PATH=/pkg/startup
++++ export SYSMGR_NODE=
++++ SYSMGR_NODE=
++++ export TTY_UART_DRIVER=libslinux.dll
++++ TTY_UART_DRIVER=libslinux.dll
++++ am_i_thinxr
++++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
+++++ id -un
++++ export AAA_USER=root
++++ AAA_USER=root
++++ export PCIE_DEBUG=2
++++ PCIE_DEBUG=2
++++ export MEMDBG_BLACKLIST=fib_mgr:npu_driver:bundlemgr_distrib:optics_driver:fia_driver:optics_driver_0:optics_driver_1:optics_driver_2:optics_driver_3:optics_driver_4:optics_driver_5:optics_driver_6:optics_driver_7
++++ MEMDBG_BLACKLIST=fib_mgr:npu_driver:bundlemgr_distrib:optics_driver:fia_driver:optics_driver_0:optics_driver_1:optics_driver_2:optics_driver_3:optics_driver_4:optics_driver_5:optics_driver_6:optics_driver_7
++++ export LVM_SUPPRESS_FD_WARNINGS=1
++++ LVM_SUPPRESS_FD_WARNINGS=1
++++ export MEMDBG_ENABLE=1
++++ MEMDBG_ENABLE=1
++++ '[' -f /pkg/etc/sanitizer_env.sh ']'
++++ '[' -e /pkg/bin/procnto ']'
++++ am_i_thinxr
++++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
+++ umask 0
++ am_i_thinxr
++ [[ -e /opt/cisco/thinxr/am_i_thinxr ]]
++ umask 0
++ '[' 1 -eq 1 ']'
++ declare -F pd_notify_xr_pm_started
++ nsenter --net=/var/run/netns/xrnns -- processmgr
++ wait 967

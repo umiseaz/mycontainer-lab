@@ -1,0 +1,7 @@
+MAX_SIZE 65536
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE main/main
+NOPIPE main/main
+TRACE main
+NOPIPE main

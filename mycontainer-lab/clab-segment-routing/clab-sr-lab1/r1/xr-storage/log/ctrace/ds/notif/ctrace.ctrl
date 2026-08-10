@@ -1,0 +1,7 @@
+MAX_SIZE 1048576
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE notif
+NOPIPE notif
+TRACE notif/notif
+NOPIPE notif/notif

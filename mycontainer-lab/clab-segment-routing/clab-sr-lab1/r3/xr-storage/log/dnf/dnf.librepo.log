@@ -1,0 +1,256 @@
+14:28:19 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.50.1 GnuTLS/3.5.3 zlib/1.2.11)
+14:28:19 Current date: 2026-08-10T14:28:19+0000
+14:28:19 lr_download: Target: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (-)
+14:28:19 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:19 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:19 lr_download: Downloading started
+14:28:19 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (Effective url: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch)
+14:28:19 lr_download: Target: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (-)
+14:28:19 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:19 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:19 lr_download: Downloading started
+14:28:19 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (Effective url: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo)
+14:28:19 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.50.1 GnuTLS/3.5.3 zlib/1.2.11)
+14:28:19 Current date: 2026-08-10T14:28:19+0000
+14:28:19 lr_download: Target: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (-)
+14:28:19 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:19 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:19 lr_download: Downloading started
+14:28:19 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (Effective url: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch)
+14:28:19 lr_download: Target: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (-)
+14:28:19 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:19 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:19 lr_download: Downloading started
+14:28:19 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (Effective url: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo)
+14:28:20 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.50.1 GnuTLS/3.5.3 zlib/1.2.11)
+14:28:20 Current date: 2026-08-10T14:28:20+0000
+14:28:20 lr_download: Target: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (-)
+14:28:20 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:20 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:20 lr_download: Downloading started
+14:28:20 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (Effective url: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch)
+14:28:20 lr_download: Target: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (-)
+14:28:20 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:20 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:20 lr_download: Downloading started
+14:28:20 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (Effective url: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo)
+14:28:20 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.50.1 GnuTLS/3.5.3 zlib/1.2.11)
+14:28:20 Current date: 2026-08-10T14:28:20+0000
+14:28:20 lr_download: Target: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (-)
+14:28:20 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:20 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:20 lr_download: Downloading started
+14:28:20 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (Effective url: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch)
+14:28:20 lr_download: Target: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (-)
+14:28:20 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:20 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:20 lr_download: Downloading started
+14:28:20 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (Effective url: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo)
+14:28:21 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.50.1 GnuTLS/3.5.3 zlib/1.2.11)
+14:28:21 Current date: 2026-08-10T14:28:21+0000
+14:28:21 lr_download: Target: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (-)
+14:28:21 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:21 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:21 lr_download: Downloading started
+14:28:21 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (Effective url: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch)
+14:28:21 lr_download: Target: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (-)
+14:28:21 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:21 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:21 lr_download: Downloading started
+14:28:21 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (Effective url: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo)
+14:28:25 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.50.1 GnuTLS/3.5.3 zlib/1.2.11)
+14:28:25 Current date: 2026-08-10T14:28:25+0000
+14:28:25 lr_download: Target: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (-)
+14:28:25 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:25 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:25 lr_download: Downloading started
+14:28:25 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (Effective url: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch)
+14:28:25 lr_download: Target: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (-)
+14:28:25 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:25 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:25 lr_download: Downloading started
+14:28:25 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (Effective url: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo)
+14:28:25 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.50.1 GnuTLS/3.5.3 zlib/1.2.11)
+14:28:25 Current date: 2026-08-10T14:28:25+0000
+14:28:25 lr_download: Target: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (-)
+14:28:25 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:25 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:25 lr_download: Downloading started
+14:28:25 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (Effective url: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch)
+14:28:25 lr_download: Target: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (-)
+14:28:25 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:25 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:25 lr_download: Downloading started
+14:28:25 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (Effective url: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo)
+14:28:28 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.50.1 GnuTLS/3.5.3 zlib/1.2.11)
+14:28:28 Current date: 2026-08-10T14:28:28+0000
+14:28:28 lr_download: Target: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (-)
+14:28:28 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:28 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:28 lr_download: Downloading started
+14:28:28 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (Effective url: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch)
+14:28:28 lr_download: Target: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (-)
+14:28:28 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:28 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:28 lr_download: Downloading started
+14:28:28 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (Effective url: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo)
+14:28:28 lr_handle_perform: Using dir: /var/volatile/cache/dnf/iosxr_install_internal-f956ac62537bd733
+14:28:28 lr_handle_perform: Using own SIGINT handler
+14:28:28 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+14:28:28 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+14:28:28 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+14:28:28 lr_handle_perform: Downloading/Locating yum repo
+14:28:28 lr_yum_use_local: Locating repo..
+14:28:28 lr_yum_use_local_load_base: open(/var/volatile/cache/dnf/iosxr_install_internal-f956ac62537bd733/repodata/repomd.xml): No such file or directory
+14:28:28 lr_handle_perform: Restoring an old SIGINT handler
+14:28:28 lr_handle_perform: Using dir: /tmp/dnf-24vsx9ge
+14:28:28 lr_handle_perform: Using own SIGINT handler
+14:28:28 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+14:28:28 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+14:28:28 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+14:28:28 lr_handle_perform: Downloading/Locating yum repo
+14:28:28 lr_yum_download_remote: Downloading/Copying repo..
+14:28:28 lr_yum_download_repomd: Downloading repomd.xml via mirrorlist
+14:28:28 lr_download: Target: repodata/repomd.xml (-)
+14:28:28 lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x59b020d61250
+14:28:28 lr_prepare_lrmirrors: Mirror: file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo
+14:28:28 select_next_target: Selecting mirror for: repodata/repomd.xml
+14:28:28 prepare_next_transfer: URL: file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml
+14:28:28 lr_download: Downloading started
+14:28:28 check_transfer_statuses: Transfer finished: repodata/repomd.xml (Effective url: file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml)
+14:28:28 check_transfer_statuses: Error during transfer: Curl error (37): Couldn't read a file:// file for file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml [Couldn't open file /var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml]
+14:28:28 check_transfer_statuses: Ignore error - Try another mirror
+14:28:28 select_next_target: Selecting mirror for: repodata/repomd.xml
+14:28:28 select_suitable_mirror: All mirrors were tried without success
+14:28:28 lr_download: Error while downloading: Cannot download repodata/repomd.xml: All mirrors were tried
+14:28:28 lr_yum_download_repomd: repomd.xml download was unsuccessful
+14:28:28 lr_handle_perform: Restoring an old SIGINT handler
+14:28:30 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.50.1 GnuTLS/3.5.3 zlib/1.2.11)
+14:28:30 Current date: 2026-08-10T14:28:30+0000
+14:28:30 lr_download: Target: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (-)
+14:28:30 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:30 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:30 lr_download: Downloading started
+14:28:30 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (Effective url: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch)
+14:28:30 lr_download: Target: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (-)
+14:28:30 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:30 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:30 lr_download: Downloading started
+14:28:30 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (Effective url: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo)
+14:28:30 lr_handle_perform: Using dir: /var/volatile/cache/dnf/iosxr_install_internal-f956ac62537bd733
+14:28:30 lr_handle_perform: Using own SIGINT handler
+14:28:30 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+14:28:30 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+14:28:30 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+14:28:30 lr_handle_perform: Downloading/Locating yum repo
+14:28:30 lr_yum_use_local: Locating repo..
+14:28:30 lr_yum_use_local_load_base: open(/var/volatile/cache/dnf/iosxr_install_internal-f956ac62537bd733/repodata/repomd.xml): No such file or directory
+14:28:30 lr_handle_perform: Restoring an old SIGINT handler
+14:28:30 lr_handle_perform: Using dir: /tmp/dnf-yj8qabsz
+14:28:30 lr_handle_perform: Using own SIGINT handler
+14:28:30 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+14:28:30 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+14:28:30 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+14:28:30 lr_handle_perform: Downloading/Locating yum repo
+14:28:30 lr_yum_download_remote: Downloading/Copying repo..
+14:28:30 lr_yum_download_repomd: Downloading repomd.xml via mirrorlist
+14:28:30 lr_download: Target: repodata/repomd.xml (-)
+14:28:30 lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x56327bc21e00
+14:28:30 lr_prepare_lrmirrors: Mirror: file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo
+14:28:30 select_next_target: Selecting mirror for: repodata/repomd.xml
+14:28:30 prepare_next_transfer: URL: file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml
+14:28:30 lr_download: Downloading started
+14:28:30 check_transfer_statuses: Transfer finished: repodata/repomd.xml (Effective url: file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml)
+14:28:30 check_transfer_statuses: Error during transfer: Curl error (37): Couldn't read a file:// file for file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml [Couldn't open file /var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml]
+14:28:30 check_transfer_statuses: Ignore error - Try another mirror
+14:28:30 select_next_target: Selecting mirror for: repodata/repomd.xml
+14:28:30 select_suitable_mirror: All mirrors were tried without success
+14:28:30 lr_download: Error while downloading: Cannot download repodata/repomd.xml: All mirrors were tried
+14:28:30 lr_yum_download_repomd: repomd.xml download was unsuccessful
+14:28:30 lr_handle_perform: Restoring an old SIGINT handler
+14:28:30 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.50.1 GnuTLS/3.5.3 zlib/1.2.11)
+14:28:30 Current date: 2026-08-10T14:28:30+0000
+14:28:30 lr_download: Target: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (-)
+14:28:30 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:30 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:30 lr_download: Downloading started
+14:28:30 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (Effective url: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch)
+14:28:30 lr_download: Target: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (-)
+14:28:30 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:30 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:30 lr_download: Downloading started
+14:28:30 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (Effective url: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo)
+14:28:30 lr_handle_perform: Using dir: /var/volatile/cache/dnf/iosxr_install_internal-f956ac62537bd733
+14:28:30 lr_handle_perform: Using own SIGINT handler
+14:28:30 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+14:28:30 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+14:28:30 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+14:28:30 lr_handle_perform: Downloading/Locating yum repo
+14:28:30 lr_yum_use_local: Locating repo..
+14:28:30 lr_yum_use_local_load_base: open(/var/volatile/cache/dnf/iosxr_install_internal-f956ac62537bd733/repodata/repomd.xml): No such file or directory
+14:28:30 lr_handle_perform: Restoring an old SIGINT handler
+14:28:30 lr_handle_perform: Using dir: /tmp/dnf-8gvki9hn
+14:28:30 lr_handle_perform: Using own SIGINT handler
+14:28:30 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+14:28:30 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+14:28:30 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+14:28:30 lr_handle_perform: Downloading/Locating yum repo
+14:28:30 lr_yum_download_remote: Downloading/Copying repo..
+14:28:30 lr_yum_download_repomd: Downloading repomd.xml via mirrorlist
+14:28:30 lr_download: Target: repodata/repomd.xml (-)
+14:28:30 lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x5f6507f844e0
+14:28:30 lr_prepare_lrmirrors: Mirror: file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo
+14:28:30 select_next_target: Selecting mirror for: repodata/repomd.xml
+14:28:30 prepare_next_transfer: URL: file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml
+14:28:30 lr_download: Downloading started
+14:28:30 check_transfer_statuses: Transfer finished: repodata/repomd.xml (Effective url: file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml)
+14:28:30 check_transfer_statuses: Error during transfer: Curl error (37): Couldn't read a file:// file for file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml [Couldn't open file /var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml]
+14:28:30 check_transfer_statuses: Ignore error - Try another mirror
+14:28:30 select_next_target: Selecting mirror for: repodata/repomd.xml
+14:28:30 select_suitable_mirror: All mirrors were tried without success
+14:28:30 lr_download: Error while downloading: Cannot download repodata/repomd.xml: All mirrors were tried
+14:28:30 lr_yum_download_repomd: repomd.xml download was unsuccessful
+14:28:30 lr_handle_perform: Restoring an old SIGINT handler
+14:28:31 Librepo version: 1.7.20 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.50.1 GnuTLS/3.5.3 zlib/1.2.11)
+14:28:31 Current date: 2026-08-10T14:28:31+0000
+14:28:31 lr_download: Target: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (-)
+14:28:31 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:31 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch
+14:28:31 lr_download: Downloading started
+14:28:31 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch (Effective url: file:///etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch)
+14:28:31 lr_download: Target: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (-)
+14:28:31 select_next_target: Selecting mirror for: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:31 prepare_next_transfer: URL: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo
+14:28:31 lr_download: Downloading started
+14:28:31 check_transfer_statuses: Transfer finished: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo (Effective url: file:///etc/opt/cisco/iosxr/install/.repos/iosxr_install_internal.repo)
+14:28:31 lr_handle_perform: Using dir: /var/volatile/cache/dnf/iosxr_install_internal-f956ac62537bd733
+14:28:31 lr_handle_perform: Using own SIGINT handler
+14:28:31 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+14:28:31 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+14:28:31 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+14:28:31 lr_handle_perform: Downloading/Locating yum repo
+14:28:31 lr_yum_use_local: Locating repo..
+14:28:31 lr_yum_use_local_load_base: open(/var/volatile/cache/dnf/iosxr_install_internal-f956ac62537bd733/repodata/repomd.xml): No such file or directory
+14:28:31 lr_handle_perform: Restoring an old SIGINT handler
+14:28:31 lr_handle_perform: Using dir: /tmp/dnf-ool0xdnx
+14:28:31 lr_handle_perform: Using own SIGINT handler
+14:28:31 lr_handle_prepare_internal_mirrorlist: Preparing internal mirrorlist
+14:28:31 lr_handle_prepare_internal_mirrorlist: Finalizing internal mirrorlist
+14:28:31 lr_handle_prepare_internal_mirrorlist: Finalizing mirrors reported via LRI_MIRRORS
+14:28:31 lr_handle_perform: Downloading/Locating yum repo
+14:28:31 lr_yum_download_remote: Downloading/Copying repo..
+14:28:31 lr_yum_download_repomd: Downloading repomd.xml via mirrorlist
+14:28:31 lr_download: Target: repodata/repomd.xml (-)
+14:28:31 lr_prepare_lrmirrors: Preparing internal mirror list for handle id: 0x5fdd1cc0e380
+14:28:31 lr_prepare_lrmirrors: Mirror: file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo
+14:28:31 select_next_target: Selecting mirror for: repodata/repomd.xml
+14:28:31 prepare_next_transfer: URL: file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml
+14:28:31 lr_download: Downloading started
+14:28:31 check_transfer_statuses: Transfer finished: repodata/repomd.xml (Effective url: file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml)
+14:28:31 check_transfer_statuses: Error during transfer: Curl error (37): Couldn't read a file:// file for file:///var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml [Couldn't open file /var/opt/cisco/iosxr/install/mirror/iosxr_install_internal_repo/repodata/repomd.xml]
+14:28:31 check_transfer_statuses: Ignore error - Try another mirror
+14:28:31 select_next_target: Selecting mirror for: repodata/repomd.xml
+14:28:31 select_suitable_mirror: All mirrors were tried without success
+14:28:31 lr_download: Error while downloading: Cannot download repodata/repomd.xml: All mirrors were tried
+14:28:31 lr_yum_download_repomd: repomd.xml download was unsuccessful
+14:28:31 lr_handle_perform: Restoring an old SIGINT handler

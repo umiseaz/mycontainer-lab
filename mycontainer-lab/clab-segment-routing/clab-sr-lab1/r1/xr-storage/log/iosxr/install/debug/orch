@@ -1,0 +1,148 @@
+2026-08-10 14:28:17,928 UTC   1536 [orch.__main__       :  32] INF: -------------------------------------------------------------------------------
+2026-08-10 14:28:17,929 UTC   1536 [orch.__main__       :  33] INF: Started
+2026-08-10 14:28:18,704 UTC   1536 [orch.__main__       : 316] INF: Cookie access retry count 0
+2026-08-10 14:28:21,706 UTC   1536 [orch.__main__       : 316] INF: Cookie access retry count 1
+2026-08-10 14:28:24,709 UTC   1536 [orch.__main__       : 534] INF: Creating volatile tmp dir at /var/volatile/tmp/cisco/iosxr/install
+2026-08-10 14:28:24,741 UTC   1536 [orch.reload.sm      : 192] INF: Attempting to connect to shelf manager. rc is 0
+2026-08-10 14:28:24,742 UTC   1536 [orch.persist.Persist:1669] INF: Attempting to load previous state data from path /var/opt/cisco/iosxr/install/mirror/feature-db-state
+2026-08-10 14:28:24,743 UTC   1536 [orch.persist.Persist:1675] INF: No state data file '/var/opt/cisco/iosxr/install/mirror/feature-db-state' exists
+2026-08-10 14:28:24,743 UTC   1536 [orch.features.infra.ha: 102] DEB: No features holding the lock to restore
+2026-08-10 14:28:24,901 UTC   1536 [orch.config         : 188] DEB: Beginning repository configuration resync
+2026-08-10 14:28:24,902 UTC   1536 [orch.config         : 191] INF: Registering config verifier
+2026-08-10 14:28:24,911 UTC   1536 [orch.config         : 225] DEB: Ending config resync
+2026-08-10 14:28:24,917 UTC   1536 [orch.config         :  87] INF: Error (Failed to get done: 'sysdb' detected the 'warning' condition 'A SysDB client tried to access a nonexistent item or list an empty directory') when reading startup done path. Treating as if done value=False
+2026-08-10 14:28:24,918 UTC   1536 [orch.config         : 114] DEB: Registering for notifications on /ipc/gl/config/startup/done with callback function <bound method Verifier._startup_done_cb of <iosxr.install._orch._config.Verifier object at 0x75c7a43a2fd0>>
+2026-08-10 14:28:24,925 UTC   1536 [orch.features.infra.comms:  86] INF: Creating Endpoint
+2026-08-10 14:28:24,927 UTC   1536 [orch.features.infra.comms: 121] INF: Publishing endpoint
+2026-08-10 14:28:24,927 UTC   1536 [orch.__main__       : 492] DEB: The reimage success marker file and reimage transaction history files do not exist, a replace triggered reimage has not occurred
+2026-08-10 14:28:24,944 UTC   1536 [orch.alarms         :  43] INF: Initialising FM at node: 0/RP0/CPU0
+2026-08-10 14:28:24,975 UTC   1536 [orch.disaster_recovery: 161] INF: This platform does not have a DR partition
+2026-08-10 14:28:24,976 UTC   1536 [orch.persist.Persist:1669] INF: Attempting to load previous state data from path /var/opt/cisco/iosxr/install/mirror/state
+2026-08-10 14:28:24,976 UTC   1536 [orch.persist.Persist:1675] INF: No state data file '/var/opt/cisco/iosxr/install/mirror/state' exists
+2026-08-10 14:28:24,977 UTC   1536 [orch.engine.fsm     : 179] DEB: No legacy state file exists
+2026-08-10 14:28:24,977 UTC   1536 [orch.persist.Persist:1669] INF: Attempting to load previous state data from path /var/opt/cisco/iosxr/install/mirror/orchstate
+2026-08-10 14:28:24,977 UTC   1536 [orch.persist.Persist:1675] INF: No state data file '/var/opt/cisco/iosxr/install/mirror/orchstate' exists
+2026-08-10 14:28:24,978 UTC   1536 [orch.persist.Persist: 307] WAR: Reimage history directory unexpectedly removed, recreating
+2026-08-10 14:28:24,978 UTC   1536 [orch.engine.fsm     : 201] INF: Resuming with no state record
+2026-08-10 14:28:24,979 UTC   1536 [orch.engine.fsm     :  96] DEB: FSM is starting in state <StateName.IDLE: 0>
+2026-08-10 14:28:24,979 UTC   1536 [orch.engine.fsm(0)  : 324] DEB: Skipping end-of-transaction RPFO handling
+2026-08-10 14:28:24,980 UTC   1536 [orch.engine.fsm(0)  : 351] DEB: Skipping reimage failure resume handling
+2026-08-10 14:28:24,980 UTC   1536 [orch.engine.fsm     : 248] DEB: Skipping 'handle resume' as outside transaction
+2026-08-10 14:28:24,980 UTC   1536 [orch.engine.fsm     : 264] DEB: Skipping 'wait for nodes' as idle outside transaction
+2026-08-10 14:28:24,980 UTC   1536 [orch.oper.pq        :3150] DEB: Creating show version cache after oper module request
+2026-08-10 14:28:24,992 UTC   1536 [orch.__main__       : 649] DEB: Going active
+2026-08-10 14:28:24,992 UTC   1536 [orch.__main__       : 509] DEB: Removing old reimage state
+2026-08-10 14:28:24,994 UTC   1536 [orch.__main__       :  52] DEB: Entering event loop
+2026-08-10 14:28:24,995 UTC   1536 [orch.inv            : 185] DEB: Adding node 0/RP0/CPU0 to the inventory
+2026-08-10 14:28:24,996 UTC   1536 [orch.engine.monitor : 252] DEB: Node 0/RP0/CPU0 added, adding callbacks
+2026-08-10 14:28:24,996 UTC   1536 [orch.engine.monitor : 275] DEB: Not reporting node available event for 0/RP0/CPU0
+2026-08-10 14:28:24,996 UTC   1536 [orch.engine.monitor : 210] DEB: Registering callbacks for node 0/RP0/CPU0
+2026-08-10 14:28:24,998 UTC   1536 [orch.features.infra.comms: 171] INF: Finished publishing endpoint, exception None
+2026-08-10 14:28:25,000 UTC   1536 [orch.oper.pq        :3284] INF: Base gISO build metadata file does not exist.
+2026-08-10 14:28:25,000 UTC   1536 [orch.oper.pq        : 556] INF: Falling back to using installed packages
+2026-08-10 14:28:25,001 UTC   1536 [cmn.yum.locks       : 126] DEB: _QueueItem('list', in_progress=False) is being added to the empty queue
+2026-08-10 14:28:25,002 UTC   1536 [cmn.yum.Query       : 592] DEB: Not adding NNS to cmd: ['/usr/bin/python3', '/usr/bin/dnf', '--disableplugin=local', '-c', '/etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch', 'list', '-y', '--disablerepo=*', '--enablerepo=iosxr_install_internal', '--no-wrap', '--refresh', '--', 'installed']
+2026-08-10 14:28:25,002 UTC   1536 [cmn.yum.Query       : 378] DEB: [90ED] ==================================================
+2026-08-10 14:28:25,003 UTC   1536 [cmn.yum.Query       : 379] INF: [90ED] Running ['/usr/bin/python3', '/usr/bin/dnf', '--disableplugin=local', '-c', '/etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch', 'list', '-y', '--disablerepo=*', '--enablerepo=iosxr_install_internal', '--no-wrap', '--refresh', '--', 'installed']
+2026-08-10 14:28:25,010 UTC   1536 [cmn.yum.Query       : 407] DEB: [90ED] Subprocess PID: 1821
+2026-08-10 14:28:25,011 UTC   1536 [cmn.subprocs.readers: 125] DEB: [90ED] Add reader (189)
+2026-08-10 14:28:25,012 UTC   1536 [orch.repo           :1557] INF: Not creating initial rollback point as rollback is disabled
+2026-08-10 14:28:25,012 UTC   1536 [orch.persist.Persist: 605] DEB: No standby RP, not resyncing
+2026-08-10 14:28:25,018 UTC   1536 [comms.Orch          : 485] INF: Received AGENT_HELLO unsolicited message from 0/RP0/CPU0
+2026-08-10 14:28:25,019 UTC   1536 [orch.inv            : 358] DEB: Node with ID 0/RP0/CPU0 and PID XRd-CP-C-01 says hello
+2026-08-10 14:28:25,019 UTC   1536 [orch.inv            : 385] DEB: Invoking hello callback "<class 'iosxr.install._orch._oper._pkgs.PkgQuery'>:openconfig-cache-regenerate:0/RP0/CPU0" for node 0/RP0/CPU0
+2026-08-10 14:28:25,019 UTC   1536 [orch.oper.pq        :1939] DEB: Openconfig cache regenerate post node hello for node 0/RP0/CPU0
+2026-08-10 14:28:25,020 UTC   1536 [cmn.cache           : 396] DEB: cache: 6: Invalidating the result for member: _CacheKey(fn=<bound method PkgQuery._ocplat_get_packages_inner of <iosxr.install._orch._oper._pkgs.PkgQuery object at 0x75c7a4b6c550>>, args=(<iosxr.install._orch._oper._pkgs.PkgQuery object at 0x75c7a4b6c550>,), kwargs={'node': '0_RP0_CPU0'})
+2026-08-10 14:28:25,020 UTC   1536 [orch.inv            : 385] DEB: Invoking hello callback "<class 'iosxr.install._orch._engine._monitor.NodeMonitor'>:0/RP0/CPU0" for node 0/RP0/CPU0
+2026-08-10 14:28:25,020 UTC   1536 [orch.engine.monitor : 342] DEB: Received hello message from node 0/RP0/CPU0 with ip 172.0.0.1
+2026-08-10 14:28:25,021 UTC   1536 [orch.engine.monitor : 559] INF: Node 0/RP0/CPU0 has trans-in-progress marker file: False, expected: False - ok
+2026-08-10 14:28:25,021 UTC   1536 [orch.engine.monitor : 599] INF: Node 0/RP0/CPU0 has op-in-progress marker file: False, packaging operation in progress: False - ok
+2026-08-10 14:28:25,022 UTC   1536 [orch.engine.monitor : 623] INF: Node 0/RP0/CPU0 has software cookie 'fixed-platform-cookie', expected 'fixed-platform-cookie' - matches
+2026-08-10 14:28:25,022 UTC   1536 [orch.engine.monitor : 656] INF: Node 0/RP0/CPU0 has giso_label '', expected '' - 'matches'
+2026-08-10 14:28:25,023 UTC   1536 [cmn.cache           : 682] DEB: cache: 6: Nothing waiting on <function PkgQuery._ocplat_get_packages_inner at 0x75c7a4d7c280>(args: (<iosxr.install._orch._oper._pkgs.PkgQuery object at 0x75c7a4b6c550>,), kwargs: {'node': '0_RP0_CPU0'})
+2026-08-10 14:28:25,023 UTC   1536 [cmn.cache           : 435] DEB: cache: 6: Calling <function PkgQuery._ocplat_get_packages_inner at 0x75c7a4d7c280>
+2026-08-10 14:28:25,023 UTC   1536 [orch.oper.pq        : 588] INF: Falling back to using installed packages
+2026-08-10 14:28:25,024 UTC   1536 [orch.oper.pq        :1521] DEB: Received request for package query <PkgQueryType.INSTALLED: 2>, with inputs []
+2026-08-10 14:28:25,025 UTC   1536 [orch.aggr._Request  :1373] DEB: Request id 0xec13234100000001: Sending <MsgCategory.PKG_QUERY: 19> message to 1 nodes: Confirmed: [Node(0/RP0/CPU0)]. Unconfirmed: []. Timeout: 120
+2026-08-10 14:28:25,026 UTC   1536 [comms.Orch          : 167] INF: Sending PKG_QUERY request message (to nodes [Node(0/RP0/CPU0)]): {"category": 19, "msg_type": 1, "error": null, "msg_data": {"query": 2, "inputs": [], "wait": false, "get_security_data": false, "category": 19}, "req_id": "0xec13234100000001", "nodes": ["0/RP0/CPU0"], "warnings": null}
+2026-08-10 14:28:25,028 UTC   1536 [orch.reload.sm      : 383] DEB: connect_cb invoked with status 0
+2026-08-10 14:28:25,028 UTC   1536 [orch.reload         : 346] INF: Connect callback from Shelf Manager. Status 0
+2026-08-10 14:28:25,028 UTC   1536 [orch.reload         : 348] INF: Connected to Shelf Manager.
+2026-08-10 14:28:25,501 UTC   1536 [comms.Orch          : 455] INF: Received PKG_QUERY response message to request 0xec13234100000001 from 0/RP0/CPU0: b'{"category": 19, "msg_type": 2, "error": null, "msg_data": {"yum_output": null, "yum_busy_agt": false, "yum_busy_pid": 1821, "timestamp": null, "category": 19}, "req_id": "0xec13234100000001", "nodes": null, "warnings": null}'
+2026-08-10 14:28:25,504 UTC   1536 [orch.aggr._Request  :1466] DEB: Request id 0xec13234100000001: Received response from 0/RP0/CPU0. (1/1)
+2026-08-10 14:28:25,504 UTC   1536 [orch.aggr._Request  :1669] DEB: Cancelling timer on request _Request(comms=<iosxr.install._cmn.comms.Orch object at 0x75c7a4b62250>, id='0xec13234100000001', nodes=[Node(0/RP0/CPU0)], category=<MsgCategory.PKG_QUERY: 19>
+2026-08-10 14:28:25,509 UTC   1536 [orch.oper.pq        :1324] ERR: Request error due to package manager in use by another process pid 1821 on node 0/RP0/CPU0
+2026-08-10 14:28:25,510 UTC   1536 [cmn.cache           : 438] ERR: cache: 6: Not caching result for <function PkgQuery._ocplat_get_packages_inner at 0x75c7a4d7c280>(args: (<iosxr.install._orch._oper._pkgs.PkgQuery object at 0x75c7a4b6c550>,), kwargs: {'node': '0_RP0_CPU0'}) as exception hit
+Traceback (most recent call last):
+  File "infra/install/src/_cmn/cache.py", line 664, in wrap_async
+  File "infra/install/src/_cmn/cache.py", line 177, in load
+KeyError: _CacheKey(fn=<function PkgQuery._ocplat_get_packages_inner at 0x75c7a4d7c280>, args=(<iosxr.install._orch._oper._pkgs.PkgQuery object at 0x75c7a4b6c550>,), kwargs={'node': '0_RP0_CPU0'})
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 586, in committed
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 217, in load
+FileNotFoundError: [Errno 2] No such file or directory: '/var/opt/cisco/iosxr/install/mirror/committed-pkgs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "infra/install/src/_cmn/cache.py", line 436, in _create_cache_result
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 2730, in _ocplat_get_packages_inner
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 589, in committed
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 1404, in pkgmgr
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 1558, in _send_query
+  File "infra/install/src/_orch/_oper/_pkgs.py", line 1430, in _raise_and_delete_exception
+iosxr.install._cmn.excs.PkgMgrBusyError: 'Install' detected the 'try again' condition 'The package manager is currently busy, please try again in a few moments'
+2026-08-10 14:28:25,520 UTC   1536 [cmn.cache           : 505] DEB: cache: 6: Cache recreation failed, suppressing exception: 'Install' detected the 'try again' condition 'The package manager is currently busy, please try again in a few moments'
+2026-08-10 14:28:25,860 UTC   1536 [cmn.subprocs.readers: 189] DEB: [90ED] __anext__(): Remove reader (189)
+2026-08-10 14:28:25,862 UTC   1536 [cmn.yum.Query       : 241] DEB: [90ED] Finished reading output
+2026-08-10 14:28:25,862 UTC   1536 [cmn.yum.Query       : 492] INF: [90ED] Subprocess completed successfully
+2026-08-10 14:28:25,865 UTC   1536 [cmn.yum.Query       : 290] DEB: [90ED] Removing operation
+2026-08-10 14:28:25,870 UTC   1536 [cmn.subprocs.readers: 335] DEB: [90ED] Stopped
+2026-08-10 14:28:25,870 UTC   1536 [cmn.yum.Query       : 293] DEB: [90ED] Stopped stdout reader
+2026-08-10 14:28:25,870 UTC   1536 [cmn.yum.Query       : 315] DEB: [90ED] Waiting for clean up
+2026-08-10 14:28:25,875 UTC   1536 [cmn.yum.Query       : 321] DEB: [90ED] Cleaned up
+2026-08-10 14:28:25,884 UTC   1536 [cmn.yum.Query       : 663] INF: [90ED] Subprocess exited with success
+2026-08-10 14:28:25,885 UTC   1536 [cmn.yum.Query       :1608] DEB: [dead(90ED)] Query complete, with output:
+2026-08-10 14:28:25,886 UTC   1536 [cmn.yum.Query       :1615] DEB: [dead(90ED)]   PkgDetails(Name='acl', Version='2.2.52', Release='r0.64', Epoch='0', Architecture='corei7_64', Summary=None, Repository='@iosxr_install_internal', Cached=None, Size=None, Description=None, License=None, ProvidesMatches=[], Active=None, Committed=None, Pkgmgr=None, URL=None, XRMandatory=None, XROptional=None, XRPackage=None, GPGKeyID=None, InstallFingerprint='0', RunTimeFingerprint='0', RunTimeTimestamp=0)
+2026-08-10 14:28:25,886 UTC   1536 [cmn.yum.Query       :1615] DEB: [dead(90ED)]   PkgDetails(Name='at', Version='3.1.20', Release='r0.66.71.0', Epoch='0', Architecture='corei7_64', Summary=None, Repository='@iosxr_install_internal', Cached=None, Size=None, Description=None, License=None, ProvidesMatches=[], Active=None, Committed=None, Pkgmgr=None, URL=None, XRMandatory=None, XROptional=None, XRPackage=None, GPGKeyID=None, InstallFingerprint='0', RunTimeFingerprint='0', RunTimeTimestamp=0)
+2026-08-10 14:28:25,887 UTC   1536 [cmn.yum.Query       :1615] DEB: [dead(90ED)]   PkgDetails(Name='attr', Version='2.4.47', Release='r0.64', Epoch='0', Architecture='corei7_64', Summary=None, Repository='@iosxr_install_internal', Cached=None, Size=None, Description=None, License=None, ProvidesMatches=[], Active=None, Committed=None, Pkgmgr=None, URL=None, XRMandatory=None, XROptional=None, XRPackage=None, GPGKeyID=None, InstallFingerprint='0', RunTimeFingerprint='0', RunTimeTimestamp=0)
+2026-08-10 14:28:25,889 UTC   1536 [cmn.yum.Query       :1615] DEB: [dead(90ED)]   PkgDetails(Name='audit', Version='2.7', Release='r0.66.71.0', Epoch='0', Architecture='corei7_64', Summary=None, Repository='@iosxr_install_internal', Cached=None, Size=None, Description=None, License=None, ProvidesMatches=[], Active=None, Committed=None, Pkgmgr=None, URL=None, XRMandatory=None, XROptional=None, XRPackage=None, GPGKeyID=None, InstallFingerprint='0', RunTimeFingerprint='0', RunTimeTimestamp=0)
+2026-08-10 14:28:25,889 UTC   1536 [cmn.yum.Query       :1615] DEB: [dead(90ED)]   PkgDetails(Name='base-files', Version='3.0.14', Release='r89.56', Epoch='0', Architecture='wrlsdk_x86', Summary=None, Repository='@iosxr_install_internal', Cached=None, Size=None, Description=None, License=None, ProvidesMatches=[], Active=None, Committed=None, Pkgmgr=None, URL=None, XRMandatory=None, XROptional=None, XRPackage=None, GPGKeyID=None, InstallFingerprint='0', RunTimeFingerprint='0', RunTimeTimestamp=0)
+2026-08-10 14:28:25,889 UTC   1536 [cmn.yum.Query       :1615] DEB: [dead(90ED)]   PkgDetails(Name='base-passwd', Version='3.5.29', Release='r0.1.65', Epoch='0', Architecture='corei7_64', Summary=None, Repository='@iosxr_install_internal', Cached=None, Size=None, Description=None, License=None, ProvidesMatches=[], Active=None, Committed=None, Pkgmgr=None, URL=None, XRMandatory=None, XROptional=None, XRPackage=None, GPGKeyID=None, InstallFingerprint='0', RunTimeFingerprint='0', RunTimeTimestamp=0)
+2026-08-10 14:28:25,892 UTC   1536 [cmn.yum.Query       :1615] DEB: [dead(90ED)]   PkgDetails(Name='base-passwd-update', Version='3.5.29', Release='r0.1.65', Epoch='0', Architecture='corei7_64', Summary=None, Repository='@iosxr_install_internal', Cached=None, Size=None, Description=None, License=None, ProvidesMatches=[], Active=None, Committed=None, Pkgmgr=None, URL=None, XRMandatory=None, XROptional=None, XRPackage=None, GPGKeyID=None, InstallFingerprint='0', RunTimeFingerprint='0', RunTimeTimestamp=0)
+2026-08-10 14:28:25,892 UTC   1536 [cmn.yum.Query       :1615] DEB: [dead(90ED)]   PkgDetails(Name='bash', Version='4.3.30', Release='r0.65', Epoch='0', Architecture='corei7_64', Summary=None, Repository='@iosxr_install_internal', Cached=None, Size=None, Description=None, License=None, ProvidesMatches=[], Active=None, Committed=None, Pkgmgr=None, URL=None, XRMandatory=None, XROptional=None, XRPackage=None, GPGKeyID=None, InstallFingerprint='0', RunTimeFingerprint='0', RunTimeTimestamp=0)
+2026-08-10 14:28:25,899 UTC   1536 [cmn.yum.Query       :1615] DEB: [dead(90ED)]   PkgDetails(Name='bash-completion', Version='2.4', Release='r0.64', Epoch='0', Architecture='corei7_64', Summary=None, Repository='@iosxr_install_internal', Cached=None, Size=None, Description=None, License=None, ProvidesMatches=[], Active=None, Committed=None, Pkgmgr=None, URL=None, XRMandatory=None, XROptional=None, XRPackage=None, GPGKeyID=None, InstallFingerprint='0', RunTimeFingerprint='0', RunTimeTimestamp=0)
+2026-08-10 14:28:25,900 UTC   1536 [cmn.yum.Query       :1615] DEB: [dead(90ED)]   PkgDetails(Name='bash-completion-extra', Version='2.4', Release='r0.64', Epoch='0', Architecture='corei7_64', Summary=None, Repository='@iosxr_install_internal', Cached=None, Size=None, Description=None, License=None, ProvidesMatches=[], Active=None, Committed=None, Pkgmgr=None, URL=None, XRMandatory=None, XROptional=None, XRPackage=None, GPGKeyID=None, InstallFingerprint='0', RunTimeFingerprint='0', RunTimeTimestamp=0)
+2026-08-10 14:28:25,900 UTC   1536 [cmn.yum.Query       :1617] DEB: [dead(90ED)]  ...truncated...
+2026-08-10 14:28:25,900 UTC   1536 [cmn.yum.Query       : 315] DEB: [dead(90ED)] Waiting for clean up elsewhere
+2026-08-10 14:28:25,901 UTC   1536 [cmn.yum.Query       : 321] DEB: [dead(90ED)] Cleaned up elsewhere
+2026-08-10 14:28:25,901 UTC   1536 [cmn.yum.locks       :  98] DEB: No next future
+2026-08-10 14:28:25,901 UTC   1536 [orch.oper.pq        : 683] INF: Filtering disabled packages path: None
+2026-08-10 14:28:25,923 UTC   1536 [cmn.yum.locks       : 126] DEB: _QueueItem('Retrieve build info', in_progress=False) is being added to the empty queue
+2026-08-10 14:28:25,923 UTC   1536 [cmn.yum.rpm         : 222] DEB: cmd: ['rpm', '-qa', '--queryformat', '%{name}-%|epoch?{%{epoch}}:{0}|:%{version}-%{release}.%{arch}`%{packager}`%{buildhost}`%{buildtime}\n'], userid: iosxr
+2026-08-10 14:28:25,931 UTC   1536 [cmn.subprocs.exec   : 378] DEB: [45A6] ==================================================
+2026-08-10 14:28:25,934 UTC   1536 [cmn.subprocs.exec   : 379] INF: [45A6] Running ['rpm', '-qa', '--queryformat', '%{name}-%|epoch?{%{epoch}}:{0}|:%{version}-%{release}.%{arch}`%{packager}`%{buildhost}`%{buildtime}\n'] as user iosxr
+2026-08-10 14:28:25,949 UTC   1536 [cmn.subprocs.exec   : 407] DEB: [45A6] Subprocess PID: 2372
+2026-08-10 14:28:25,950 UTC   1536 [cmn.subprocs.readers: 125] DEB: [45A6] Add reader (189)
+2026-08-10 14:28:25,950 UTC   1536 [cmn.subprocs.readers: 125] DEB: [45A6] Add reader (197)
+2026-08-10 14:28:26,981 UTC   1536 [cmn.subprocs.readers: 189] DEB: [45A6] __anext__(): Remove reader (197)
+2026-08-10 14:28:26,982 UTC   1536 [cmn.subprocs.exec   : 241] DEB: [45A6] Finished reading output
+2026-08-10 14:28:26,982 UTC   1536 [cmn.subprocs.readers: 189] DEB: [45A6] __anext__(): Remove reader (189)
+2026-08-10 14:28:26,982 UTC   1536 [cmn.subprocs.exec   : 241] DEB: [45A6] Finished reading output
+2026-08-10 14:28:26,983 UTC   1536 [cmn.subprocs.exec   : 492] INF: [45A6] Subprocess completed successfully
+2026-08-10 14:28:26,983 UTC   1536 [cmn.subprocs.exec   : 290] DEB: [45A6] Removing operation
+2026-08-10 14:28:26,984 UTC   1536 [cmn.subprocs.readers: 335] DEB: [45A6] Stopped
+2026-08-10 14:28:26,984 UTC   1536 [cmn.subprocs.exec   : 293] DEB: [45A6] Stopped stdout reader
+2026-08-10 14:28:26,985 UTC   1536 [cmn.subprocs.readers: 335] DEB: [45A6] Stopped
+2026-08-10 14:28:26,985 UTC   1536 [cmn.subprocs.exec   : 297] DEB: [45A6] Stopped stderr reader
+2026-08-10 14:28:26,985 UTC   1536 [cmn.subprocs.exec   : 315] DEB: [45A6] Waiting for clean up
+2026-08-10 14:28:26,985 UTC   1536 [cmn.subprocs.exec   : 321] DEB: [45A6] Cleaned up
+2026-08-10 14:28:26,988 UTC   1536 [cmn.yum.locks       :  98] DEB: No next future
+2026-08-10 14:28:27,074 UTC   1536 [orch.oper.pq        :3350] DEB: New show version EDM cache created
+2026-08-10 14:28:39,234 UTC   1536 [orch.config         : 243] DEB: Startup done: incoming event is <Event(name='done',event=3,type=1,oldval=None,newval=1,seq=1,item=1/1)>
+2026-08-10 14:28:39,235 UTC   1536 [orch.config         : 264] INF: Cleaned up /var/opt/cisco/iosxr/install/giso_cfg_marker
+2026-08-10 14:28:39,235 UTC   1536 [orch.config         : 264] INF: Cleaned up /var/xr/config/config/running/alternate_cfg/giso.cfg
+2026-08-10 14:28:39,235 UTC   1536 [orch.config         : 280] DEB: Repository configuration resync complete

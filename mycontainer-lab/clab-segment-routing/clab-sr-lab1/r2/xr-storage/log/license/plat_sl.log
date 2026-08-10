@@ -1,0 +1,36 @@
+2026-08-10 14:28:29.128911 Sync: create_directory():160, directory: /misc/disk1/.sppdc created
+2026-08-10 14:28:29.129585 Sync: create_directory():160, directory: /misc/disk1/.sppdc_new created
+2026-08-10 14:28:29.129692 Sync: ROLE_PRIMARY. setting master flags
+2026-08-10 14:28:29.129707 Sync: Entering plat_sl_mount for mounting /misc/disk1/.sppdc_new
+2026-08-10 14:29:12.379008 SIALOG: Entering plat_sl_update_validate_collection_time_in_ts
+2026-08-10 14:29:12.379294 Sync: ROLE_PRIMARY. setting master flags
+2026-08-10 14:29:12.379318 Sync: Entering plat_sl_mount for mounting /misc/disk1/.sppdc_new
+2026-08-10 14:29:12.408519 SIALOG: sia_ooc_mdata_path /etc/sl/platinfo.data
+2026-08-10 14:29:12.408568 SIALOG: Entering plat_sl_update_validate_collection_time_in_ts
+2026-08-10 14:29:12.408582 SIALOG: Entering plat_sl_read_sia_mdata
+2026-08-10 14:29:12.408669 SIALOG: sia_ooc_mdata_path /etc/sl/platinfo.data
+2026-08-10 14:29:12.408684 SIALOG: Entering plat_sl_read_sia_mdata
+2026-08-10 14:29:12.408738 SIAERROR: Failed to open file /etc/sl/platinfo.data rc=2
+2026-08-10 14:29:12.408768 SIAWARNING: Could not stat /etc/sl/platinfo.data file, rc=2 (No such file or directory)
+2026-08-10 14:29:12.419342 SIALOG: Entering plat_sl_get_ooc_status_from_ts
+2026-08-10 14:29:12.419467 SIALOG: sia_ooc_mdata_path /etc/sl/platinfo.data
+2026-08-10 14:29:12.419482 SIALOG: Entering plat_sl_read_sia_mdata
+2026-08-10 14:29:12.419553 SIALOG: sia_ooc_mdata_path /etc/sl/platinfo.data
+2026-08-10 14:29:12.419566 SIALOG: Entering plat_sl_read_sia_mdata
+2026-08-10 14:29:12.419589 SIAERROR: Failed to open file /etc/sl/platinfo.data rc=2
+2026-08-10 14:29:12.419615 SIALOG: SIA mdata file /etc/sl/platinfo.data not found
+2026-08-10 14:34:12.364695 SIALOG: Entering plat_sl_update_validate_collection_time_in_ts
+2026-08-10 14:34:12.364982 SIALOG: sia_ooc_mdata_path /etc/sl/platinfo.data
+2026-08-10 14:34:12.365011 SIALOG: Entering plat_sl_update_validate_collection_time_in_ts
+2026-08-10 14:34:12.365029 SIALOG: Entering plat_sl_read_sia_mdata
+2026-08-10 14:34:12.365141 SIALOG: sia_ooc_mdata_path /etc/sl/platinfo.data
+2026-08-10 14:34:12.365160 SIALOG: Entering plat_sl_read_sia_mdata
+2026-08-10 14:34:12.365200 SIAERROR: Failed to open file /etc/sl/platinfo.data rc=2
+2026-08-10 14:34:12.365230 SIAWARNING: Could not stat /etc/sl/platinfo.data file, rc=2 (No such file or directory)
+2026-08-10 14:34:12.366374 SIALOG: Entering plat_sl_get_ooc_status_from_ts
+2026-08-10 14:34:12.366534 SIALOG: sia_ooc_mdata_path /etc/sl/platinfo.data
+2026-08-10 14:34:12.366555 SIALOG: Entering plat_sl_read_sia_mdata
+2026-08-10 14:34:12.366665 SIALOG: sia_ooc_mdata_path /etc/sl/platinfo.data
+2026-08-10 14:34:12.366685 SIALOG: Entering plat_sl_read_sia_mdata
+2026-08-10 14:34:12.366719 SIAERROR: Failed to open file /etc/sl/platinfo.data rc=2
+2026-08-10 14:34:12.366746 SIALOG: SIA mdata file /etc/sl/platinfo.data not found

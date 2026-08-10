@@ -1,0 +1,36 @@
+2026-08-10 14:28:17,929 UTC   1544 [orchagt.__main__    :  31] INF: -------------------------------------------------------------------------------
+2026-08-10 14:28:17,929 UTC   1544 [orchagt.__main__    :  32] INF: Started
+2026-08-10 14:28:18,427 UTC   1544 [cmn.yumdb           : 379] INF: [C5DB] Running ['ip', 'netns', 'exec', 'default', '/usr/bin/python3', '/usr/bin/dnf', '--disableplugin=local', '-c', '/etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch', 'provides', '--no-wrap', '--refresh', '--', 'cisco-identifier']
+2026-08-10 14:28:19,012 UTC   1544 [cmn.yumdb           : 492] INF: [C5DB] Subprocess completed successfully
+2026-08-10 14:28:19,019 UTC   1544 [orchagt.__main__    : 248] INF: Recalculating cookie (recalc marker exists: True, cookie: 'fixed-platform-cookie')
+2026-08-10 14:28:19,021 UTC   1544 [cmn.yumdb           : 379] INF: [D786] Running ['ip', 'netns', 'exec', 'default', '/usr/bin/python3', '/usr/bin/dnf', '--disableplugin=local', '-c', '/etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch', 'history', '--no-wrap', '--refresh', '--', 'userinstalled']
+2026-08-10 14:28:19,645 UTC   1544 [cmn.yumdb           : 492] INF: [D786] Subprocess completed successfully
+2026-08-10 14:28:19,659 UTC   1544 [yum_repoquery       : 379] INF: [A5B0] Running ['/usr/bin/python3', '/usr/bin/dnf', '--disableplugin=local', '-c', '/etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch', 'repoquery', '-q', '--whatprovides', 'cisco-iosxr-user-installable', '--installed', '--disablerepo=*', '--no-wrap', '--refresh']
+2026-08-10 14:28:20,070 UTC   1544 [yum_repoquery       : 492] INF: [A5B0] Subprocess completed successfully
+2026-08-10 14:28:20,073 UTC   1544 [yum_repoquery       : 663] INF: [A5B0] Subprocess exited with success
+2026-08-10 14:28:20,080 UTC   1544 [cmn.yumdb           : 379] INF: [5182] Running ['ip', 'netns', 'exec', 'default', '/usr/bin/python3', '/usr/bin/dnf', '--disableplugin=local', '-c', '/etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch', 'mark', '--no-wrap', '--refresh', '--', 'install', 'xr-cdp-7.9.2v1.0.0-1.x86_64', 'xr-ema-7.9.2v1.0.0-1.x86_64', 'xr-p4rt-7.9.2v1.0.0-1.x86_64', 'xr-diskboot-7.9.2v1.0.0-1.x86_64', 'xr-ipc-7.9.2v1.0.0-1.x86_64', 'xr-rip-7.9.2v1.0.0-1.x86_64', 'xr-ztp-7.9.2v1.0.0-1.x86_64', 'xr-spi-hw-api-only-7.9.2v1.0.0-1.x86_64', 'xr-cofo-7.9.2v1.0.0-1.x86_6...
+2026-08-10 14:28:20,659 UTC   1544 [cmn.yumdb           : 492] INF: [5182] Subprocess completed successfully
+2026-08-10 14:28:20,673 UTC   1544 [cmn.yumdb           : 379] INF: [E986] Running ['ip', 'netns', 'exec', 'default', '/usr/bin/python3', '/usr/bin/dnf', '--disableplugin=local', '-c', '/etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch', 'mark', '--no-wrap', '--refresh', '--', 'remove', 'vim-common-8.2.4314-r0.11.71.0.corei7_64', 'python3-smtpd-3.7.6-r0.56.71.0.corei7_64', 'iw-4.7-r0.65.corei7_64', 'libsotruss-2.24-r0.64.corei7_64', 'policycoreutils-sestatus-2.6-r0.67.71.0.corei7_64', 'perl-module-compress-raw-zlib-5.22.1-r0.64.corei7_64', 'wget-1.18-r0.65.corei7_64', 'net-too...
+2026-08-10 14:28:21,906 UTC   1544 [cmn.yumdb           : 492] INF: [E986] Subprocess completed successfully
+2026-08-10 14:28:22,143 UTC   1544 [orchagt.__main__    : 234] INF: Locally generated software cookie: fixed-platform-cookie
+2026-08-10 14:28:24,998 UTC   1544 [comms.Agent         : 717] INF: Received resync notification
+2026-08-10 14:28:25,000 UTC   1544 [cmn.subprocs.exec   : 456] INF: [68D6] Running 'ps -C python3 -o pid= -o ppid= -o args='
+2026-08-10 14:28:25,012 UTC   1544 [cmn.subprocs.exec   : 494] INF: [68D6] Finished
+2026-08-10 14:28:25,014 UTC   1544 [comms.Agent         : 167] INF: Sending AGENT_HELLO unsolicited message: {"category": 1024, "msg_type": 4, "error": null, "msg_data": {"software_cookie": "fixed-platform-cookie", "reload_pending": false, "trans_in_progress": false, "pkg_mgr_proc_running": false, "op_in_progress": false, "pkg_mgr_install_running": false, "card_pid": "XRd-CP-C-01", "giso_label": ""}, "req_id": null, "nodes": null, "warnings": null}
+2026-08-10 14:28:25,028 UTC   1544 [comms.Agent         : 674] INF: Received PKG_QUERY request message with ID 0xec13234100000001
+2026-08-10 14:28:25,032 UTC   1544 [cmn.yum.Query       : 379] INF: [9C6B] Running ['/usr/bin/python3', '/usr/bin/dnf', '--disableplugin=local', '-c', '/etc/opt/cisco/iosxr/install/dnf/dnf.conf.instorch', 'list', '-y', '--disablerepo=*', '--enablerepo=iosxr_install_internal', '--no-wrap', '--refresh', '--', 'installed']
+2026-08-10 14:28:25,366 UTC   1544 [cmn.yum.ParserInfo  : 458] ERR: [9C6B] Yum is busy: Waiting for process with pid 1821 to finish.
+2026-08-10 14:28:25,367 UTC   1544 [cmn.yum.Query       : 477] ERR: [9C6B] Subprocess errored
+Traceback (most recent call last):
+  File "infra/install/src/_cmn/subprocs/_cmd.py", line 457, in run
+  File "infra/install/src/_cmn/subprocs/_cmd.py", line 227, in _read_output
+  File "infra/install/src/_cmn/yum/_parsers.py", line 321, in parse
+  File "infra/install/src/_cmn/yum/_parsers.py", line 346, in _parse
+  File "infra/install/src/_cmn/yum/_parsers.py", line 2597, in _parse_inner
+  File "infra/install/src/_cmn/yum/_parsers.py", line 2739, in _parse_list
+  File "infra/install/src/_cmn/yum/_parsers.py", line 459, in _parse_unexpected
+  File "infra/install/src/_cmn/yum/_parsers.py", line 229, in update_from_line
+iosxr.install._cmn.yum._excs.YumRunningError: Package manager is already running due to: python3:1821
+2026-08-10 14:28:25,370 UTC   1544 [cmn.yum.Query       : 150] INF: [9C6B] Sending signal <Signals.SIGTERM: 15> to 1822
+2026-08-10 14:28:25,478 UTC   1544 [cmn.yum.Query       : 150] INF: [9C6B] Sending signal <Signals.SIGTERM: 15> to 1822
+2026-08-10 14:28:25,497 UTC   1544 [comms.Agent         : 167] INF: Sending PKG_QUERY response message: {"category": 19, "msg_type": 2, "error": null, "msg_data": {"yum_output": null, "yum_busy_agt": false, "yum_busy_pid": 1821, "timestamp": null, "category": 19}, "req_id": "0xec13234100000001", "nodes": null, "warnings": null}

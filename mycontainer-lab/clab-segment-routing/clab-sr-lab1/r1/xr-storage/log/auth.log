@@ -1,0 +1,85 @@
+Aug 10 14:28:12 r1 groupadd[448]: group added to /etc/group: name=iosxr, GID=1000
+Aug 10 14:28:12 r1 groupadd[448]: group added to /etc/gshadow: name=iosxr
+Aug 10 14:28:12 r1 groupadd[448]: new group: name=iosxr, GID=1000
+Aug 10 14:28:12 r1 useradd[460]: new user: name=iosxr, UID=993, GID=1000, home=/home/iosxr, shell=/bin/false
+Aug 10 14:28:13 r1 sshd[606]: Server listening on 0.0.0.0 port 22.
+Aug 10 14:28:13 r1 sshd[606]: Server listening on :: port 22.
+Aug 10 14:28:25 r1 groupadd[2125]: group added to /etc/group: name=cisco-support, GID=1001
+Aug 10 14:28:25 r1 groupadd[2125]: group added to /etc/gshadow: name=cisco-support
+Aug 10 14:28:25 r1 groupadd[2125]: new group: name=cisco-support, GID=1001
+Aug 10 14:28:25 r1 groupadd[2175]: group added to /etc/group: name=maintenance, GID=1002
+Aug 10 14:28:25 r1 groupadd[2175]: group added to /etc/gshadow: name=maintenance
+Aug 10 14:28:25 r1 groupadd[2175]: new group: name=maintenance, GID=1002
+Aug 10 14:28:25 r1 groupadd[2216]: group added to /etc/group: name=netadmin, GID=1003
+Aug 10 14:28:25 r1 groupadd[2216]: group added to /etc/gshadow: name=netadmin
+Aug 10 14:28:25 r1 groupadd[2216]: new group: name=netadmin, GID=1003
+Aug 10 14:28:25 r1 groupadd[2254]: group added to /etc/group: name=provisioning, GID=1004
+Aug 10 14:28:25 r1 groupadd[2254]: group added to /etc/gshadow: name=provisioning
+Aug 10 14:28:25 r1 groupadd[2254]: new group: name=provisioning, GID=1004
+Aug 10 14:28:25 r1 groupadd[2286]: group added to /etc/group: name=retrieve, GID=1005
+Aug 10 14:28:25 r1 groupadd[2286]: group added to /etc/gshadow: name=retrieve
+Aug 10 14:28:25 r1 groupadd[2286]: new group: name=retrieve, GID=1005
+Aug 10 14:28:25 r1 groupadd[2310]: group added to /etc/group: name=root-lr, GID=1006
+Aug 10 14:28:25 r1 groupadd[2310]: group added to /etc/gshadow: name=root-lr
+Aug 10 14:28:25 r1 groupadd[2310]: new group: name=root-lr, GID=1006
+Aug 10 14:28:25 r1 groupadd[2336]: group added to /etc/group: name=root-system, GID=1007
+Aug 10 14:28:25 r1 groupadd[2336]: group added to /etc/gshadow: name=root-system
+Aug 10 14:28:25 r1 groupadd[2336]: new group: name=root-system, GID=1007
+Aug 10 14:28:25 r1 groupadd[2368]: group added to /etc/group: name=serviceadmin, GID=1008
+Aug 10 14:28:25 r1 groupadd[2368]: group added to /etc/gshadow: name=serviceadmin
+Aug 10 14:28:25 r1 groupadd[2368]: new group: name=serviceadmin, GID=1008
+Aug 10 14:28:25 r1 groupadd[2381]: group added to /etc/group: name=sysadmin, GID=1009
+Aug 10 14:28:26 r1 groupadd[2381]: group added to /etc/gshadow: name=sysadmin
+Aug 10 14:28:26 r1 groupadd[2381]: new group: name=sysadmin, GID=1009
+Aug 10 14:28:26 r1 groupadd[2402]: group added to /etc/group: name=read-only-tg, GID=1010
+Aug 10 14:28:26 r1 groupadd[2402]: group added to /etc/gshadow: name=read-only-tg
+Aug 10 14:28:26 r1 groupadd[2402]: new group: name=read-only-tg, GID=1010
+Aug 10 14:28:35 r1 useradd[4289]: new group: name=clab, GID=1011
+Aug 10 14:28:35 r1 useradd[4289]: new user: name=clab, UID=1000, GID=1011, home=/home/clab, shell=/bin/sh
+Aug 10 14:28:35 r1 usermod[4327]: add 'clab' to group 'root-lr'
+Aug 10 14:28:35 r1 usermod[4327]: add 'clab' to shadow group 'root-lr'
+Aug 10 14:28:35 r1 usermod[4339]: add 'clab' to group 'sudo'
+Aug 10 14:28:35 r1 usermod[4339]: add 'clab' to shadow group 'sudo'
+Aug 10 14:28:35 r1 usermod[4375]: add 'clab' to group 'cisco-support'
+Aug 10 14:28:35 r1 usermod[4375]: add 'clab' to shadow group 'cisco-support'
+Aug 10 14:28:36 r1 sshd[4509]: Server listening on 0.0.0.0 port 22.
+Aug 10 14:28:36 r1 sshd[4509]: Sending to syslog proxy : Server listening on 0.0.0.0 port 22.
+Aug 10 14:28:36 r1 sshd[4509]: Server listening on :: port 22.
+Aug 10 14:28:36 r1 sshd[4509]: Sending to syslog proxy : Server listening on :: port 22.
+Aug 10 14:28:37 r1 sshd[4509]: Received signal 15; terminating.
+Aug 10 14:28:37 r1 sshd[4509]: Sending to syslog proxy : Received signal 15; terminating.
+Aug 10 14:28:37 r1 sshd[4584]: Server listening on 0.0.0.0 port 830.
+Aug 10 14:28:37 r1 sshd[4584]: Sending to syslog proxy : Server listening on 0.0.0.0 port 830.
+Aug 10 14:28:37 r1 sshd[4584]: Server listening on :: port 830.
+Aug 10 14:28:37 r1 sshd[4584]: Sending to syslog proxy : Server listening on :: port 830.
+Aug 10 14:28:37 r1 sshd[4584]: Server listening on 0.0.0.0 port 22.
+Aug 10 14:28:37 r1 sshd[4584]: Sending to syslog proxy : Server listening on 0.0.0.0 port 22.
+Aug 10 14:28:37 r1 sshd[4584]: Server listening on :: port 22.
+Aug 10 14:28:37 r1 sshd[4584]: Sending to syslog proxy : Server listening on :: port 22.
+Aug 10 14:28:52 r1 sshd[5015]: (sshd): Socket created, sockfd = 6
+Aug 10 14:28:52 r1 sshd[5015]: (sshd): Successfully connected to server, sockfd = 6
+Aug 10 14:28:52 r1 sshd[5015]: reserve - src addr: 172.20.20.1 src port: 52072, dst addr: 172.20.20.2 dst port: 22 protocol: 6, family: 2, pty id: 2
+Aug 10 14:28:52 r1 sshd[5015]: Initialized client socket 14 with path /var/run/tty-channels/client5015
+Aug 10 14:29:12 r1 sshd[5015]: Connection closed by  user clab 172.20.20.1 port 52072 [preauth]
+Aug 10 14:29:12 r1 sshd[5015]: Sending to syslog proxy : Connection closed by  user clab 172.20.20.1 port 52072 [preauth]
+Aug 10 14:29:12 r1 PAM-XRAAA[5015]: pamxr_account: error getting session id nss delete (acct)
+Aug 10 14:29:12 r1 sshd[5015]: unreserve request received for port 0
+Aug 10 14:29:12 r1 sshd[5015]: Initialized client socket 13 with path /var/run/tty-channels/client5015
+Aug 10 14:32:28 r1 sshd[5941]: (sshd): Socket created, sockfd = 6
+Aug 10 14:32:28 r1 sshd[5941]: (sshd): Successfully connected to server, sockfd = 6
+Aug 10 14:32:28 r1 sshd[5941]: reserve - src addr: 3fff:172:20:20::1 src port: 40402, dst addr: 3fff:172:20:20::2 dst port: 22 protocol: 6, family: 10, pty id: 2
+Aug 10 14:32:28 r1 sshd[5941]: Initialized client socket 14 with path /var/run/tty-channels/client5941
+Aug 10 14:32:33 r1 sshd[5941]: Permission denied for clab from 3fff:172:20:20::1
+Aug 10 14:32:33 r1 sshd[5941]: Sending to syslog proxy : Permission denied for clab from 3fff:172:20:20::1
+Aug 10 14:32:33 r1 sshd[5941]: Failed authentication/pam for clab from 3fff:172:20:20::1 port 40402 ssh2
+Aug 10 14:32:33 r1 sshd[5941]: Sending to syslog proxy : Failed authentication/pam for clab from 3fff:172:20:20::1 port 40402 ssh2
+Aug 10 14:32:41 r1 sshd[5941]: Accepted authentication/pam for clab from 3fff:172:20:20::1 port 40402 ssh2
+Aug 10 14:32:41 r1 sshd[5941]: Sending to syslog proxy : Accepted authentication/pam for clab from 3fff:172:20:20::1 port 40402 ssh2
+Aug 10 14:32:41 r1 sshd[5984]: monitoring request received for port 0
+Aug 10 14:32:41 r1 sshd[5984]: set window size request received for port 0
+Aug 10 14:32:41 r1 sshd[5984]: monitoring thread spawned for port 0
+Aug 10 14:32:41 r1 sshd[5984]: Initialized client socket 17 with path /var/run/tty-channels/client5984
+Aug 10 14:36:52 r1 sshd[5984]: set window size request received for port 0
+Aug 10 14:36:52 r1 sshd[5984]: Initialized client socket 12 with path /var/run/tty-channels/client5984
+Aug 10 14:37:27 r1 sshd[5984]: Disconnected from user clab 3fff:172:20:20::1 port 40402
+Aug 10 14:37:27 r1 sshd[5984]: Sending to syslog proxy : Disconnected from user clab 3fff:172:20:20::1 port 40402

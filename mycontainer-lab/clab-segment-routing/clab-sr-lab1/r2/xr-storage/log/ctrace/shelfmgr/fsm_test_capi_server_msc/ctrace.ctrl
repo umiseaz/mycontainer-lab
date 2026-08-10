@@ -1,0 +1,5 @@
+MAX_SIZE 4096
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE fsm_test_capi_server_msc
+NOPIPE fsm_test_capi_server_msc

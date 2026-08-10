@@ -1,0 +1,56 @@
+(Default NS                    ) Mon Aug 10 14:28:38 UTC 2026: (pid  4659) (/pkg/bin/ztp_exec.sh)                  : Applying configuration (XRd applying XR interface IP address config):
++ (Applying configuration) interface Mg 0/RP0/CPU0/0
++ (Applying configuration)  ipv4 address 172.20.20.3/24
++ (Applying configuration)  no shutdown
++ (Applying configuration) !
++ (Applying configuration) interface Mg 0/RP0/CPU0/0
++ (Applying configuration)  ipv6 address 3fff:172:20:20::3/64
++ (Applying configuration)  no shutdown
++ (Applying configuration) !
+(Default NS                    ) Mon Aug 10 14:28:38 UTC 2026: (pid  4659) (/pkg/bin/ztp_exec.sh)                  : + (exec) /pkg/bin/config -p15 -X -f /var/opt/cisco/iosxr/xrd/interface_ip_config.txt -u ZTP -L ZTP -c "XRd applying XR interface IP address config"
+(Default NS                    ) Mon Aug 10 14:28:40 UTC 2026: (pid  4659) (/pkg/bin/ztp_exec.sh)                  : Output of config apply cmd:
+This SDR's running configuration is inconsistent with persistent configuration.
+No configuration commits for this SDR will be allowed until a 'clear configuration inconsistency' command is performed.
+Parsing.
+146 bytes parsed in 1 sec (145)bytes/sec
+Committing.This SDR's running configuration is inconsistent with persistent configuration.
+No configuration commits for this SDR will be allowed until a 'clear configuration inconsistency' command is performed.
+(Default NS                    ) Mon Aug 10 14:28:40 UTC 2026: (pid  4659) (/pkg/bin/ztp_exec.sh)                  : Inconsistent config error
+(Default NS                    ) Mon Aug 10 14:28:40 UTC 2026: (pid  4659) (/pkg/bin/ztp_exec.sh)                  : The running configuration is inconsistent.
+(Default NS                    ) Mon Aug 10 14:28:40 UTC 2026: (pid  4659) (/pkg/bin/ztp_exec.sh)                  : Issuing a clear configuration inconsistency
+(Default NS                    ) Mon Aug 10 14:28:41 UTC 2026: (pid  4844) (/pkg/bin/ztp_exec.sh)                  : Running user cmd: [clear configuration inconsistency]
+
+Creating any missing directories in Configuration File system...OK
+Initializing Configuration Version Manager...OK
+Syncing commit database with running configuration...OK
+
+Creating any missing directories in Configuration File system...OK
+Initializing Configuration Version Manager...OK
+Syncing commit database with running configuration...OK
+(Default NS                    ) Mon Aug 10 14:28:42 UTC 2026: (pid  4659) (/pkg/bin/ztp_exec.sh)                  : + (exec) /pkg/bin/config -p15 -X -f /var/opt/cisco/iosxr/xrd/interface_ip_config.txt -u ZTP -L ZTP -c "XRd applying XR interface IP address config"
+(Default NS                    ) Mon Aug 10 14:28:46 UTC 2026: (pid  4659) (/pkg/bin/ztp_exec.sh)                  : Output of config apply cmd:
+Parsing.
+146 bytes parsed in 1 sec (145)bytes/sec
+Committing.
+Prepared commit in 0 sec
+.
+5 items committed in 2 sec (2)items/sec
+Updating.
+Updated Commit database in 1 sec 
+(Default NS                    ) Mon Aug 10 14:28:46 UTC 2026: (pid  4659) (/pkg/bin/ztp_exec.sh)                  : Applying (XRd applying XR interface IP address config) configuration. Done.
+(Default NS                    ) Mon Aug 10 14:28:47 UTC 2026: (pid  4959) (/pkg/bin/ztp_exec.sh)                  : Applying configuration (ZTP):
++ (Applying configuration) interface MgmtEth0/RP0/CPU0/0
++ (Applying configuration)  no ipv6 address
++ (Applying configuration) ipv6 address 3fff:172:20:20::3/64
++ (Applying configuration) 
+(Default NS                    ) Mon Aug 10 14:28:47 UTC 2026: (pid  4959) (/pkg/bin/ztp_exec.sh)                  : + (exec) /pkg/bin/config -p15 -X -f /tmp/tmp.kcSRtXG8PP -u ZTP -L ZTP -c "ZTP"
+(Default NS                    ) Mon Aug 10 14:28:51 UTC 2026: (pid  4959) (/pkg/bin/ztp_exec.sh)                  : Output of config apply cmd:
+Parsing.
+82 bytes parsed in 1 sec (81)bytes/sec
+Committing.
+Prepared commit in 0 sec
+.
+8 items committed in 2 sec (3)items/sec
+Updating.
+Updated Commit database in 1 sec 
+(Default NS                    ) Mon Aug 10 14:28:51 UTC 2026: (pid  4959) (/pkg/bin/ztp_exec.sh)                  : Applying (ZTP) configuration. Done.

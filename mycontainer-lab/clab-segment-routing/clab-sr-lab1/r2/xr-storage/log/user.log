@@ -1,0 +1,13 @@
+Aug 10 14:28:12 r2 lvm[312]: Logging initialised at Mon Aug 10 14:28:11 2026
+Aug 10 14:28:12 r2 lvm[312]: Set umask from 0022 to 0077
+Aug 10 14:28:12 r2 lvm[312]: WARNING: Failed to connect to lvmetad. Falling back to device scanning.
+Aug 10 14:28:12 r2 lvm[312]: Creating directory "/tmp/lock/lvm"
+Aug 10 14:28:12 r2 lvm[312]: No volume groups found.
+Aug 10 14:28:14 r2 lvm[822]: Logging initialised at Mon Aug 10 14:28:14 2026
+Aug 10 14:28:14 r2 lvm[822]: Set umask from 0022 to 0077
+Aug 10 14:28:14 r2 lvm[822]: WARNING: Failed to connect to lvmetad. Falling back to device scanning.
+Aug 10 14:28:14 r2 lvm[822]: No volume groups found.
+Aug 10 14:28:35 r2 sshd: (sshd): Socket created, sockfd = 3
+Aug 10 14:28:35 r2 sshd: (sshd): Successfully connected to server, sockfd = 3
+Aug 10 14:28:36 r2 sshd: (sshd): Socket created, sockfd = 3
+Aug 10 14:28:36 r2 sshd: (sshd): Successfully connected to server, sockfd = 3

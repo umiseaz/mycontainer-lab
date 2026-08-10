@@ -1,0 +1,7 @@
+MAX_SIZE 262144
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE err/err
+NOPIPE err/err
+TRACE err
+NOPIPE err

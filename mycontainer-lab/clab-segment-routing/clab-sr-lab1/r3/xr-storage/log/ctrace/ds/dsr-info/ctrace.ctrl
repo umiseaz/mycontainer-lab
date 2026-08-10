@@ -1,0 +1,7 @@
+MAX_SIZE 524288
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE dsr-info/dsr-info
+NOPIPE dsr-info/dsr-info
+TRACE dsr-info
+NOPIPE dsr-info

@@ -1,0 +1,11 @@
+MAX_SIZE 4096
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE fsm_test_capi_server_info/xr_ds_capi_info/xr_ds_cipc_info
+NOPIPE fsm_test_capi_server_info/xr_ds_capi_info/xr_ds_cipc_info
+TRACE fsm_test_capi_server_info
+NOPIPE fsm_test_capi_server_info
+TRACE fsm_test_capi_server_info/xr_ds_capi_info
+NOPIPE fsm_test_capi_server_info/xr_ds_capi_info
+TRACE fsm_test_capi_server_info/fsm_test_server_cipc_info
+NOPIPE fsm_test_capi_server_info/fsm_test_server_cipc_info

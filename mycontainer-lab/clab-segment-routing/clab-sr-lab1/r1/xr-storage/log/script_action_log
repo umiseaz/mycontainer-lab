@@ -1,0 +1,17 @@
+[2026-08-10 14:28:32,470] INFO [action.init]:: MADE IT TO Action INIT
+[2026-08-10 14:28:32,488] INFO [action.add]:: Beginning add registration...
+[2026-08-10 14:28:32,514] INFO [action.add]:: add registration complete
+[2026-08-10 14:28:32,516] INFO [action.remove]:: Beginning remove registration...
+[2026-08-10 14:28:32,553] INFO [action.remove]:: remove registration complete
+[2026-08-10 14:28:32,558] INFO [action.stop]:: Beginning stop registration...
+[2026-08-10 14:28:32,582] INFO [action.stop]:: stop registration complete
+[2026-08-10 14:28:32,583] INFO [action.run]:: Beginning run registration...
+[2026-08-10 14:28:32,650] INFO [action.run]:: run registration complete
+[2026-08-10 14:28:32,653] INFO [action.update]:: Beginning update registration...
+[2026-08-10 14:28:32,697] INFO [action.update]:: update registration complete
+[2026-08-10 14:28:32,913] DEBUG [script_db]:: main_notifier:/run/lock/script-mgmt/script_scheduler_db.json.lock Waiting to lock DB..
+[2026-08-10 14:28:32,917] DEBUG [script_db]:: main_notifier:/run/lock/script-mgmt/script_scheduler_db.json.lock Acquired DB locked
+[2026-08-10 14:28:32,925] DEBUG [script_db]:: main_notifier:/run/lock/script-mgmt/script_scheduler_db.json.lock DB Unlocked
+[2026-08-10 14:28:32,992] DEBUG [script_db]:: startup:/run/lock/script-mgmt/script_db.json.lock Waiting to lock DB..
+[2026-08-10 14:28:32,992] DEBUG [script_db]:: startup:/run/lock/script-mgmt/script_db.json.lock Acquired DB locked
+[2026-08-10 14:28:33,007] DEBUG [script_db]:: startup:/run/lock/script-mgmt/script_db.json.lock DB Unlocked

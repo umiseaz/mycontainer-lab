@@ -1,0 +1,19 @@
+[2026-08-10 14:28:31,953] INFO [script_agent]:: Script agent directory /harddisk:/mirror/script-mgmt not present. Creating
+[2026-08-10 14:28:31,954] INFO [script_agent]:: Script agent directory /harddisk:/mirror/script-mgmt/logs not present. Creating
+[2026-08-10 14:28:31,955] INFO [script_agent]:: Script agent directory /harddisk:/mirror/script-mgmt/.script-mgmt not present. Creating
+[2026-08-10 14:28:31,955] INFO [script_agent]:: Script agent directory /var/run/script-mgmt not present. Creating
+[2026-08-10 14:28:31,955] DEBUG [script_agent]:: Joining request watcher thread
+[2026-08-10 14:28:31,956] DEBUG [script_agent]:: Monitoring threads did not complete: cannot join thread before it is started
+[2026-08-10 14:28:31,956] INFO [script_db]:: Script DB directory /run/lock/script-mgmt not present. Creating
+[2026-08-10 14:28:32,003] DEBUG [script_db]:: startup:/run/lock/script-mgmt/request_queue.json.lock Waiting to lock DB..
+[2026-08-10 14:28:32,003] DEBUG [script_db]:: startup:/run/lock/script-mgmt/request_queue.json.lock Acquired DB locked
+[2026-08-10 14:28:32,008] DEBUG [script_db]:: startup:/run/lock/script-mgmt/script_db.json.lock Waiting to lock DB..
+[2026-08-10 14:28:32,008] DEBUG [script_db]:: startup:/run/lock/script-mgmt/script_db.json.lock Acquired DB locked
+[2026-08-10 14:28:32,012] DEBUG [script_db]:: startup:/run/lock/script-mgmt/script_db.json.lock DB Unlocked
+[2026-08-10 14:28:32,019] DEBUG [script_db]:: startup:/run/lock/script-mgmt/request_queue.json.lock DB Unlocked
+[2026-08-10 14:28:32,019] INFO [script_agent]:: ScriptAgent: Init Request Queue
+[2026-08-10 14:28:32,019] DEBUG [script_agent]:: Processing request queue
+[2026-08-10 14:28:32,024] DEBUG [script_db]:: process_request_queue:/run/lock/script-mgmt/request_queue.json.lock Waiting to lock DB..
+[2026-08-10 14:28:32,024] DEBUG [script_db]:: process_request_queue:/run/lock/script-mgmt/request_queue.json.lock Acquired DB locked
+[2026-08-10 14:28:32,029] DEBUG [script_db]:: process_request_queue:/run/lock/script-mgmt/request_queue.json.lock DB Unlocked
+[2026-08-10 14:28:32,029] INFO [script_agent]:: ScriptAgent: Ready

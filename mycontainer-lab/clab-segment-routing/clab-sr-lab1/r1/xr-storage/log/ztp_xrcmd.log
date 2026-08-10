@@ -1,0 +1,5 @@
+xrcmd running [clear configuration inconsistency]
+
+Creating any missing directories in Configuration File system...OK
+Initializing Configuration Version Manager...OK
+Syncing commit database with running configuration...OK

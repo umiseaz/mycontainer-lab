@@ -1,0 +1,5 @@
+MAX_SIZE 65536
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE fmlib_err_debug
+NOPIPE fmlib_err_debug

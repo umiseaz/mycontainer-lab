@@ -1,0 +1,7 @@
+MAX_SIZE 4096
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE sm_capi_server_conn
+NOPIPE sm_capi_server_conn
+TRACE sm_capi_server_conn/sm_server_cipc_conn
+NOPIPE sm_capi_server_conn/sm_server_cipc_conn

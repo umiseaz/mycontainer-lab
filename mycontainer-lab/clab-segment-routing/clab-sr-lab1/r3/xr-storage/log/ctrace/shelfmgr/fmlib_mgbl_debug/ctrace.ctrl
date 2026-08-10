@@ -1,0 +1,7 @@
+MAX_SIZE 65536
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE fmlib_mgbl_debug
+NOPIPE fmlib_mgbl_debug
+TRACE fmlib_mgbl_debug/fmlib_mgbl_debug
+NOPIPE fmlib_mgbl_debug/fmlib_mgbl_debug

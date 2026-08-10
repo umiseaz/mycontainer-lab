@@ -1,0 +1,14 @@
+2026 Aug 10 14:28:13.451 UTC: RPMDB format check succeeded
+2026 Aug 10 14:28:13.471 UTC: RPMDB detailed info check succeeded
+2026 Aug 10 14:28:13.476 UTC: Setting up dumper and build info files
+2026 Aug 10 14:28:13.481 UTC: Platform did not provide watchdog notification start function, not starting notifications for Dumper and build info file creation
+2026 Aug 10 14:28:13.578 UTC: XR Lineup:  r79x.lu%EFR-00000448327
+2026 Aug 10 14:28:13.583 UTC: XR Version: 7.9.2
+2026 Aug 10 14:28:13.589 UTC: Platform did not provide watchdog notification stop function, not stopping notifications for Dumper and build info file creation
+2026 Aug 10 14:28:13.594 UTC: Completed set up of dumper and build info files
+2026 Aug 10 14:28:13.600 UTC: Preparing IOS-XR (first boot)
+2026 Aug 10 14:28:13.982 UTC: Checking if rollback cleanup is required
+2026 Aug 10 14:28:13.989 UTC: Finished rollback cleanup stage
+2026 Aug 10 14:28:13.995 UTC: Single node: starting XR
+2026 Aug 10 14:28:14.002 UTC: Platform did not provide watchdog notification stop function, not stopping notifications for Diskboot Exit
+2026 Aug 10 14:28:14.007 UTC: xrnginstall completed successfully

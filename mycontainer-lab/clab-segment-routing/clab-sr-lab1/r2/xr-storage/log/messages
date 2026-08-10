@@ -1,0 +1,18 @@
+Aug 10 14:28:12 r2 syslogd 1.5.1: restart.
+Aug 10 14:28:12 r2 lvm[312]: Logging initialised at Mon Aug 10 14:28:11 2026
+Aug 10 14:28:12 r2 lvm[312]: Set umask from 0022 to 0077
+Aug 10 14:28:12 r2 lvm[312]: WARNING: Failed to connect to lvmetad. Falling back to device scanning.
+Aug 10 14:28:12 r2 lvm[312]: Creating directory "/tmp/lock/lvm"
+Aug 10 14:28:12 r2 lvm[312]: No volume groups found.
+Aug 10 14:28:12 r2 kernel: klogd 1.5.1, log source = /proc/kmsg started.
+Aug 10 14:28:12 r2 kernel: Cannot find map file.
+Aug 10 14:28:13 r2 kernel: Loaded 207691 symbols from 21 modules.
+Aug 10 14:28:14 r2 lvm[822]: Logging initialised at Mon Aug 10 14:28:14 2026
+Aug 10 14:28:14 r2 lvm[822]: Set umask from 0022 to 0077
+Aug 10 14:28:14 r2 lvm[822]: WARNING: Failed to connect to lvmetad. Falling back to device scanning.
+Aug 10 14:28:14 r2 lvm[822]: No volume groups found.
+Aug 10 14:28:35 r2 sshd: (sshd): Socket created, sockfd = 3
+Aug 10 14:28:35 r2 sshd: (sshd): Successfully connected to server, sockfd = 3
+Aug 10 14:28:36 r2 sshd: (sshd): Socket created, sockfd = 3
+Aug 10 14:28:36 r2 sshd: (sshd): Successfully connected to server, sockfd = 3
+Aug 10 14:32:28 r2 kernel: [ 3452.247577] TCP: Mg0_RP0_CPU0_0: Driver has suspect GRO implementation, TCP performance may be compromised.

@@ -1,0 +1,11 @@
+MAX_SIZE 4096
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE invmgr_capi_error/xr_ds_capi_error
+NOPIPE invmgr_capi_error/xr_ds_capi_error
+TRACE invmgr_capi_error/invmgr_cipc_error
+NOPIPE invmgr_capi_error/invmgr_cipc_error
+TRACE invmgr_capi_error
+NOPIPE invmgr_capi_error
+TRACE invmgr_capi_error/xr_ds_capi_error/xr_ds_cipc_error
+NOPIPE invmgr_capi_error/xr_ds_capi_error/xr_ds_cipc_error

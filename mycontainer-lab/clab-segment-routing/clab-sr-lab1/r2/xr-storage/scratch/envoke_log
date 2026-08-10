@@ -1,0 +1,22 @@
+xr_startup.sh: Starting
+xr_startup.sh: Platform runs thinxr
+xr_startup.sh: spi_tunables_merge.py Exit code of 0, success
+xr_startup.sh: xr-startup: bootfile found
+xr_startup.sh: Bootfile /dev/xr_bootstrap found:
+xr_startup.sh: exec cat /dev/xr_bootstrap
+xr_startup.sh: platform_setup done.
+xr_startup.sh: Setting env vars ... 
+xr_startup.sh: Platform: 
+xr_startup.sh: Platform: netcfg:
+xr_startup.sh: Boardtype:RP
+xr_startup.sh: Done setting env vars
+xr_startup.sh: Creating required dirs/links...
+xr_startup.sh: ENXR Card Type: rp
+xr_startup.sh: Done.
+xr_startup.sh: Starting procnto emulation...
+xr_startup.sh: Starting net config 
+xr_startup.sh: net config done.
+xr_startup.sh: setup_panini_internode_paths ...
+xr_startup.sh: setup_panini_internode_paths ... done
+xr_startup.sh: Invoking ReaperD
+xr_startup.sh: Done

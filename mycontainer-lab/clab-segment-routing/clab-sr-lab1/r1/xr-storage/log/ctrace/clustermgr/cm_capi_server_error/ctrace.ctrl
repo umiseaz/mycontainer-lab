@@ -1,0 +1,13 @@
+MAX_SIZE 4096
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE cm_capi_server_error/cipc_error
+NOPIPE cm_capi_server_error/cipc_error
+TRACE cm_capi_server_error
+NOPIPE cm_capi_server_error
+TRACE cm_capi_server_error/xr_ds_capi_error/xr_ds_cipc_error
+NOPIPE cm_capi_server_error/xr_ds_capi_error/xr_ds_cipc_error
+TRACE cm_capi_server_error/xr_ds_capi_error
+NOPIPE cm_capi_server_error/xr_ds_capi_error
+TRACE cm_capi_server_error/cm_server_cipc_error
+NOPIPE cm_capi_server_error/cm_server_cipc_error

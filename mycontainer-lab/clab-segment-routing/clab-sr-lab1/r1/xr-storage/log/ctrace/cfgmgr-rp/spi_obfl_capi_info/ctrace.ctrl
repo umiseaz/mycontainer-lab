@@ -1,0 +1,9 @@
+MAX_SIZE 4096
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE spi_obfl_capi_info/xr_ds_capi_info/xr_ds_cipc_info
+NOPIPE spi_obfl_capi_info/xr_ds_capi_info/xr_ds_cipc_info
+TRACE spi_obfl_capi_info
+NOPIPE spi_obfl_capi_info
+TRACE spi_obfl_capi_info/xr_ds_capi_info
+NOPIPE spi_obfl_capi_info/xr_ds_capi_info

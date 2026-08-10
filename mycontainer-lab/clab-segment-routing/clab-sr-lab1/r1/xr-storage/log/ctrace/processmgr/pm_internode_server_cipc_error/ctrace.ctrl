@@ -1,0 +1,5 @@
+MAX_SIZE 32768
+DUMP on
+FILE_LOOP_COUNT 2
+TRACE pm_internode_server_cipc_error
+NOPIPE pm_internode_server_cipc_error

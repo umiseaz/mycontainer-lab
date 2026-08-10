@@ -1,0 +1,168 @@
+Aug 10 14:28:12 r2 syslogd 1.5.1: restart.
+Aug 10 14:28:12 r2 lvm[312]: Logging initialised at Mon Aug 10 14:28:11 2026
+Aug 10 14:28:12 r2 systemd-sysusers[308]: Creating group wheel with gid 989.
+Aug 10 14:28:12 r2 lvm[312]: Set umask from 0022 to 0077
+Aug 10 14:28:12 r2 systemd-sysusers[308]: Creating group nobody with gid 988.
+Aug 10 14:28:12 r2 lvm[312]: WARNING: Failed to connect to lvmetad. Falling back to device scanning.
+Aug 10 14:28:12 r2 lvm[312]: Creating directory "/tmp/lock/lvm"
+Aug 10 14:28:12 r2 lvm[312]: No volume groups found.
+Aug 10 14:28:12 r2 systemd[1]: Starting Flush Journal to Persistent Storage...
+Aug 10 14:28:12 r2 lvm[312]:   WARNING: Failed to connect to lvmetad. Falling back to device scanning.
+Aug 10 14:28:12 r2 systemd[1]: Started Flush Journal to Persistent Storage.
+Aug 10 14:28:12 r2 systemd[1]: Started Copy selected logs to var/log/old directories.
+Aug 10 14:28:12 r2 systemd[1]: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Aug 10 14:28:12 r2 systemd[1]: Reached target Local File Systems (Pre).
+Aug 10 14:28:12 r2 systemd[1]: var-volatile.mount: Directory /var/volatile to mount over is not empty, mounting anyway.
+Aug 10 14:28:12 r2 systemd[1]: Mounting /var/volatile...
+Aug 10 14:28:12 r2 systemd[1]: Mounting /mnt...
+Aug 10 14:28:12 r2 systemd[1]: Mounted /var/volatile.
+Aug 10 14:28:12 r2 systemd[1]: Mounted /mnt.
+Aug 10 14:28:12 r2 systemd[1]: Reached target Local File Systems.
+Aug 10 14:28:12 r2 systemd[1]: Starting Rebuild Dynamic Linker Cache...
+Aug 10 14:28:12 r2 systemd[1]: Starting Create Volatile Files and Directories...
+Aug 10 14:28:12 r2 systemd[1]: Starting Rebuild Journal Catalog...
+Aug 10 14:28:12 r2 systemd-tmpfiles[350]: "/var/log" already exists and is not a directory.
+Aug 10 14:28:12 r2 systemd-tmpfiles[350]: Cannot set file attribute for '/xr-storage/log/journal', value=0x00800000, mask=0x00800000: Operation not supported
+Aug 10 14:28:12 r2 systemd-tmpfiles[350]: Cannot set file attribute for '/xr-storage/log/journal/09dacbc8eaae44d0a918d4d81bcacf57', value=0x00800000, mask=0x00800000: Operation not supported
+Aug 10 14:28:12 r2 systemd[1]: Started Create Volatile Files and Directories.
+Aug 10 14:28:12 r2 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Aug 10 14:28:12 r2 systemd[1]: Started Rebuild Journal Catalog.
+Aug 10 14:28:12 r2 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Aug 10 14:28:12 r2 systemd[1]: Started Rebuild Dynamic Linker Cache.
+Aug 10 14:28:12 r2 systemd[1]: Started Rebuild Hardware Database.
+Aug 10 14:28:12 r2 systemd[1]: Starting udev Coldplug all Devices...
+Aug 10 14:28:12 r2 systemd[1]: Starting Update is Completed...
+Aug 10 14:28:12 r2 systemd[1]: Started Update is Completed.
+Aug 10 14:28:12 r2 systemd[1]: Started udev Coldplug all Devices.
+Aug 10 14:28:12 r2 systemd[1]: Reached target System Initialization.
+Aug 10 14:28:12 r2 systemd[1]: Listening on D-Bus System Message Bus Socket.
+Aug 10 14:28:12 r2 systemd[1]: Reached target Sockets.
+Aug 10 14:28:12 r2 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Aug 10 14:28:12 r2 systemd[1]: Reached target Timers.
+Aug 10 14:28:12 r2 systemd[1]: Reached target Basic System.
+Aug 10 14:28:12 r2 systemd[1]: Started Periodic Command Scheduler.
+Aug 10 14:28:12 r2 crond[395]: (CRON) INFO (Syslog will be used instead of sendmail.)
+Aug 10 14:28:12 r2 crond[395]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 38% if used.)
+Aug 10 14:28:12 r2 systemd[1]: Starting System Logging Service...
+Aug 10 14:28:12 r2 systemd[1]: Starting sysklogd Kernel Logging Service...
+Aug 10 14:28:12 r2 systemd[1]: Started Service for factory reset.
+Aug 10 14:28:12 r2 systemd[1]: Starting OpenSSH Key Generation...
+Aug 10 14:28:12 r2 systemd[1]: Started Job spooling tools.
+Aug 10 14:28:12 r2 systemd[1]: Starting IOS-XR Setup Non-Root related tasks...
+Aug 10 14:28:12 r2 systemd[1]: Started D-Bus System Message Bus.
+Aug 10 14:28:12 r2 setup_iosxr_user.sh[433]: Mon Aug 10 14:28:12 UTC 2026: Checking if iosxr user exists
+Aug 10 14:28:12 r2 sshd_check_keys[425]:   generating ssh RSA host key...
+Aug 10 14:28:12 r2 setup_iosxr_user.sh[433]: Mon Aug 10 14:28:12 UTC 2026: iosxr user doesn't exist
+Aug 10 14:28:12 r2 setup_iosxr_user.sh[433]: Checking if /etc/passwd.lock is empty and removing if necessary
+Aug 10 14:28:12 r2 setup_iosxr_user.sh[433]: Checking if /etc/shadow.lock is empty and removing if necessary
+Aug 10 14:28:12 r2 systemd[1]: Reached target Network.
+Aug 10 14:28:12 r2 setup_iosxr_user.sh[433]: Checking if /etc/group.lock is empty and removing if necessary
+Aug 10 14:28:12 r2 setup_iosxr_user.sh[433]: Checking if /etc/gshadow.lock is empty and removing if necessary
+Aug 10 14:28:12 r2 systemd[1]: Starting /etc/rc.local Compatibility...
+Aug 10 14:28:12 r2 systemd[1]: Starting Permit User Sessions...
+Aug 10 14:28:12 r2 systemd[1]: Started IOS-XR XRd Core Watcher.
+Aug 10 14:28:12 r2 setup_iosxr_user.sh[433]: Mon Aug 10 14:28:12 UTC 2026: Creating group: iosxr
+Aug 10 14:28:12 r2 systemd[1]: Starting Resets System Activity Logs...
+Aug 10 14:28:12 r2 systemd[1]: Started /etc/rc.local Compatibility.
+Aug 10 14:28:12 r2 systemd[1]: Started Permit User Sessions.
+Aug 10 14:28:12 r2 systemd[1]: Reached target Login Prompts.
+Aug 10 14:28:12 r2 systemd[1]: Started Resets System Activity Logs.
+Aug 10 14:28:12 r2 systemd[1]: Reached target Multi-User System.
+Aug 10 14:28:12 r2 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Aug 10 14:28:12 r2 systemd[1]: Started Update UTMP about System Runlevel Changes.
+Aug 10 14:28:12 r2 setup_iosxr_user.sh[433]: Mon Aug 10 14:28:12 UTC 2026: Creating user: iosxr
+Aug 10 14:28:12 r2 setup_iosxr_user.sh[433]: Mon Aug 10 14:28:12 UTC 2026: iosxr user / group created
+Aug 10 14:28:12 r2 xrd_corewatcher[456]: Setting up watches.
+Aug 10 14:28:12 r2 xrd_corewatcher[456]: Watches established.
+Aug 10 14:28:12 r2 setup_pts.sh[476]: Mon Aug 10 14:28:12 UTC 2026: change permissions of /dev/pts/ptmx to allow iosxr access
+Aug 10 14:28:12 r2 systemd[1]: Started IOS-XR Setup Non-Root related tasks.
+Aug 10 14:28:12 r2 systemd-udevd[493]: failed to execute '/lib/systemd/systemd-vconsole-setup' '/lib/systemd/systemd-vconsole-setup': No such file or directory
+Aug 10 14:28:12 r2 systemd-udevd[483]: Process '/lib/systemd/systemd-vconsole-setup' failed with exit code 2.
+Aug 10 14:28:12 r2 systemd-udevd[496]: failed to execute '/lib/systemd/systemd-vconsole-setup' '/lib/systemd/systemd-vconsole-setup': No such file or directory
+Aug 10 14:28:12 r2 systemd-udevd[488]: Process '/lib/systemd/systemd-vconsole-setup' failed with exit code 2.
+Aug 10 14:28:12 r2 systemd-udevd[497]: failed to execute '/lib/systemd/systemd-vconsole-setup' '/lib/systemd/systemd-vconsole-setup': No such file or directory
+Aug 10 14:28:12 r2 systemd-udevd[481]: Process '/lib/systemd/systemd-vconsole-setup' failed with exit code 2.
+Aug 10 14:28:12 r2 sshd_check_keys[425]:   generating ssh ECDSA host key...
+Aug 10 14:28:12 r2 sshd_check_keys[425]:   generating ssh ED25519 host key...
+Aug 10 14:28:12 r2 sshd_check_keys[425]:  generating ssh DSA host key...
+Aug 10 14:28:12 r2 systemd[1]: Started OpenSSH Key Generation.
+Aug 10 14:28:12 r2 systemd[1]: Starting IOS-XR ISO Installation including sshd...
+Aug 10 14:28:12 r2 kernel: klogd 1.5.1, log source = /proc/kmsg started.
+Aug 10 14:28:12 r2 kernel: Cannot find map file.
+Aug 10 14:28:12 r2 systemd[1]: Started System Logging Service.
+Aug 10 14:28:13 r2 kernel: Loaded 207691 symbols from 21 modules.
+Aug 10 14:28:13 r2 systemd[1]: Started sysklogd Kernel Logging Service.
+Aug 10 14:28:13 r2 xrnginstall[523]: 2026 Aug 10 14:28:13.654 UTC: Setting up dumper and build info files
+Aug 10 14:28:13 r2 xrnginstall[523]: 2026 Aug 10 14:28:13.758 UTC: XR Lineup:  r79x.lu%EFR-00000448327
+Aug 10 14:28:13 r2 xrnginstall[523]: 2026 Aug 10 14:28:13.763 UTC: XR Version: 7.9.2
+Aug 10 14:28:13 r2 xrnginstall[523]: 2026 Aug 10 14:28:13.774 UTC: Completed set up of dumper and build info files
+Aug 10 14:28:13 r2 xrnginstall[523]: 2026 Aug 10 14:28:13.781 UTC: Preparing IOS-XR (first boot)
+Aug 10 14:28:13 r2 xrnginstall[523]: Setting up confd
+Aug 10 14:28:13 r2 xrnginstall[523]: Generating public/private rsa key pair.
+Aug 10 14:28:13 r2 xrnginstall[523]: Your identification has been saved in /root/.ssh/id_rsa.
+Aug 10 14:28:13 r2 xrnginstall[523]: Your public key has been saved in /root/.ssh/id_rsa.pub.
+Aug 10 14:28:13 r2 xrnginstall[523]: The key fingerprint is:
+Aug 10 14:28:13 r2 xrnginstall[523]: SHA256:/fZqfSeDrkH4NnJtjiEv/6X3CTODQVYPRpytY/VfDPs root@r2
+Aug 10 14:28:13 r2 xrnginstall[523]: The key's randomart image is:
+Aug 10 14:28:13 r2 xrnginstall[523]: +---[RSA 2048]----+
+Aug 10 14:28:13 r2 xrnginstall[523]: |            o=o  |
+Aug 10 14:28:13 r2 xrnginstall[523]: |            oo+o |
+Aug 10 14:28:13 r2 xrnginstall[523]: |           o  o=.|
+Aug 10 14:28:13 r2 xrnginstall[523]: |         oo  +. +|
+Aug 10 14:28:13 r2 xrnginstall[523]: |        S o.. ..o|
+Aug 10 14:28:13 r2 xrnginstall[523]: |         o oo   E|
+Aug 10 14:28:13 r2 xrnginstall[523]: |        o B.=B.  |
+Aug 10 14:28:13 r2 xrnginstall[523]: |        .* Oo+X +|
+Aug 10 14:28:13 r2 xrnginstall[523]: |         o==*o.*o|
+Aug 10 14:28:13 r2 xrnginstall[523]: +----[SHA256]-----+
+Aug 10 14:28:13 r2 xrnginstall[523]: adding root@host key
+Aug 10 14:28:14 r2 xrnginstall[523]: 2026 Aug 10 14:28:14.011 UTC: Checking if rollback cleanup is required
+Aug 10 14:28:14 r2 xrnginstall[523]: 2026 Aug 10 14:28:14.018 UTC: Finished rollback cleanup stage
+Aug 10 14:28:14 r2 xrnginstall[523]: 2026 Aug 10 14:28:14.023 UTC: Single node: starting XR
+Aug 10 14:28:14 r2 xrnginstall[523]: 2026 Aug 10 14:28:14.038 UTC: xrnginstall completed successfully
+Aug 10 14:28:14 r2 systemd[1]: Started IOS-XR ISO Installation including sshd.
+Aug 10 14:28:14 r2 systemd[1]: Starting IOS-XR XRd...
+Aug 10 14:28:14 r2 systemd[1]: Started Cisco Directory Services.
+Aug 10 14:28:14 r2 xrd-startup[645]: Waiting for linux interfaces: Gi0-0-0-0 Gi0-0-0-1 eth0
+Aug 10 14:28:14 r2 ds_startup.sh[646]: start_backing_thread:bind: No such file or directory
+Aug 10 14:28:14 r2 last message repeated 2 times
+Aug 10 14:28:14 r2 xrd-startup[645]: Setting up Gi0-0-0-0 for use by XR...
+Aug 10 14:28:14 r2 xrd-startup[645]: net.ipv6.conf.Gi0-0-0-0.disable_ipv6 = 1
+Aug 10 14:28:14 r2 xrd-startup[645]: Setting up Gi0-0-0-1 for use by XR...
+Aug 10 14:28:14 r2 xrd-startup[645]: net.ipv6.conf.Gi0-0-0-1.disable_ipv6 = 1
+Aug 10 14:28:14 r2 xrd-startup[645]: Setting up eth0 for use by XR...
+Aug 10 14:28:14 r2 xrd-startup[645]: net.ipv6.conf.eth0.disable_ipv6 = 1
+Aug 10 14:28:14 r2 systemd[1]: Started IOS-XR XRd.
+Aug 10 14:28:14 r2 systemd[1]: Starting IOS-XR Reaperd and Process Manager...
+Aug 10 14:28:14 r2 xr_startup.sh[781]: ls: cannot access '/sys/bus/usb/devices': No such file or directory
+Aug 10 14:28:14 r2 xr_startup.sh[781]: /pkg/etc/xr_startup.sh: line 222: /pkg/etc/platform_setup: No such file or directory
+Aug 10 14:28:14 r2 lvm[822]: Logging initialised at Mon Aug 10 14:28:14 2026
+Aug 10 14:28:14 r2 lvm[822]: Set umask from 0022 to 0077
+Aug 10 14:28:14 r2 xr_startup.sh[781]:   WARNING: Failed to connect to lvmetad. Falling back to device scanning.
+Aug 10 14:28:14 r2 lvm[822]: WARNING: Failed to connect to lvmetad. Falling back to device scanning.
+Aug 10 14:28:14 r2 lvm[822]: No volume groups found.
+Aug 10 14:28:14 r2 xr_startup.sh[781]: sysctl: setting key "kernel.sysrq": Read-only file system
+Aug 10 14:28:14 r2 systemd[1]: Started IOS-XR Reaperd and Process Manager.
+Aug 10 14:28:14 r2 systemd[1]: Reached target XR installation and startup.
+Aug 10 14:28:14 r2 systemd[1]: Startup finished in 3.381s.
+Aug 10 14:28:32 r2 systemd[1]: Reloading.
+Aug 10 14:28:35 r2 systemd[1]: Started CiscoSSH sshd service.
+Aug 10 14:28:35 r2 sshd: (sshd): Socket created, sockfd = 3
+Aug 10 14:28:35 r2 sshd: (sshd): Successfully connected to server, sockfd = 3
+Aug 10 14:28:36 r2 systemd[1]: Reloading.
+Aug 10 14:28:36 r2 systemd[1]: Stopping CiscoSSH sshd service...
+Aug 10 14:28:36 r2 systemd[1]: Stopped CiscoSSH sshd service.
+Aug 10 14:28:36 r2 systemd[1]: Started CiscoSSH sshd service.
+Aug 10 14:28:36 r2 sshd: (sshd): Socket created, sockfd = 3
+Aug 10 14:28:36 r2 sshd: (sshd): Successfully connected to server, sockfd = 3
+Aug 10 14:30:01 r2 CROND[5070]: (root) CMD (/etc/init.d/tmpdir_cleanup.sh 90 >/dev/null 2>&1)
+Aug 10 14:31:01 r2 CROND[5906]: (root) CMD (env PATH=/usr/bin:/usr/sbin:/bin:/sbin thinxr-logrotate-app.sh)
+Aug 10 14:31:02 r2 CROND[5905]: (root) CMDOUT (error: cisco-app.conf:56 error verifying log file path /var/log/ofa: No such file or directory)
+Aug 10 14:31:02 r2 CROND[5905]: (root) CMDOUT (error: found error in file cisco-app.conf, skipping)
+Aug 10 14:32:28 r2 kernel: [ 3452.247577] TCP: Mg0_RP0_CPU0_0: Driver has suspect GRO implementation, TCP performance may be compromised.
+Aug 10 14:33:01 r2 CROND[5985]: (root) CMD (/etc/xrd_filecleanup.sh 90 >/dev/null 2>&1)
+Aug 10 14:35:01 r2 CROND[6160]: (root) CMD (/etc/init.d/tmpdir_cleanup.sh 90 >/dev/null 2>&1)
+Aug 10 14:36:01 r2 CROND[6202]: (root) CMD (env PATH=/usr/bin:/usr/sbin:/bin:/sbin thinxr-logrotate-app.sh)
+Aug 10 14:36:02 r2 CROND[6201]: (root) CMDOUT (error: cisco-app.conf:56 error verifying log file path /var/log/ofa: No such file or directory)
+Aug 10 14:36:02 r2 CROND[6201]: (root) CMDOUT (error: found error in file cisco-app.conf, skipping)
+Aug 10 14:38:01 r2 CROND[6422]: (root) CMD (/etc/xrd_filecleanup.sh 90 >/dev/null 2>&1)

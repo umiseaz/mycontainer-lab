@@ -1,0 +1,52 @@
+Aug 10 14:28:12 r1 kernel: klogd 1.5.1, log source = /proc/kmsg started.
+Aug 10 14:28:12 r1 kernel: Cannot find map file.
+Aug 10 14:28:13 r1 kernel: Loaded 207691 symbols from 21 modules.
+Aug 10 14:28:13 r1 kernel: [ 3190.289724] br-dca905e3bbe8: port 2(veth15cd5e4) entered disabled state
+Aug 10 14:28:13 r1 kernel: [ 3190.290900] veth750217c: renamed from eth0
+Aug 10 14:28:13 r1 kernel: [ 3190.391094] br-dca905e3bbe8: port 1(veth7adb77d) entered disabled state
+Aug 10 14:28:13 r1 kernel: [ 3190.392576] br-dca905e3bbe8: port 3(veth1419cb9) entered disabled state
+Aug 10 14:28:13 r1 kernel: [ 3190.394005] veth4ef2bdf: renamed from eth0
+Aug 10 14:28:13 r1 kernel: [ 3190.395244] vethbb0fbaf: renamed from eth0
+Aug 10 14:28:13 r1 kernel: [ 3190.450515] br-dca905e3bbe8: port 2(veth15cd5e4) entered disabled state
+Aug 10 14:28:13 r1 kernel: [ 3190.452893] veth15cd5e4 (unregistering): left allmulticast mode
+Aug 10 14:28:13 r1 kernel: [ 3190.454556] veth15cd5e4 (unregistering): left promiscuous mode
+Aug 10 14:28:13 r1 kernel: [ 3190.456080] br-dca905e3bbe8: port 2(veth15cd5e4) entered disabled state
+Aug 10 14:28:13 r1 kernel: [ 3190.496535] br-dca905e3bbe8: port 1(veth7adb77d) entered disabled state
+Aug 10 14:28:13 r1 kernel: [ 3190.499364] veth7adb77d (unregistering): left allmulticast mode
+Aug 10 14:28:13 r1 kernel: [ 3190.500723] veth7adb77d (unregistering): left promiscuous mode
+Aug 10 14:28:13 r1 kernel: [ 3190.502239] br-dca905e3bbe8: port 1(veth7adb77d) entered disabled state
+Aug 10 14:28:13 r1 kernel: [ 3190.598469] br-dca905e3bbe8: port 3(veth1419cb9) entered disabled state
+Aug 10 14:28:13 r1 kernel: [ 3190.600788] veth1419cb9 (unregistering): left allmulticast mode
+Aug 10 14:28:13 r1 kernel: [ 3190.602330] veth1419cb9 (unregistering): left promiscuous mode
+Aug 10 14:28:13 r1 kernel: [ 3190.603750] br-dca905e3bbe8: port 3(veth1419cb9) entered disabled state
+Aug 10 14:28:13 r1 kernel: [ 3193.864702] br-0dbe6ee80c44: port 1(vethfb7f8b5) entered blocking state
+Aug 10 14:28:13 r1 kernel: [ 3193.866059] br-0dbe6ee80c44: port 1(vethfb7f8b5) entered disabled state
+Aug 10 14:28:13 r1 kernel: [ 3193.867137] vethfb7f8b5: entered allmulticast mode
+Aug 10 14:28:13 r1 kernel: [ 3193.868062] vethfb7f8b5: entered promiscuous mode
+Aug 10 14:28:13 r1 kernel: [ 3193.881963] br-0dbe6ee80c44: port 2(veth4c6a5d8) entered blocking state
+Aug 10 14:28:13 r1 kernel: [ 3193.883026] br-0dbe6ee80c44: port 2(veth4c6a5d8) entered disabled state
+Aug 10 14:28:13 r1 kernel: [ 3193.884002] veth4c6a5d8: entered allmulticast mode
+Aug 10 14:28:13 r1 kernel: [ 3193.884873] veth4c6a5d8: entered promiscuous mode
+Aug 10 14:28:13 r1 kernel: [ 3193.904067] br-0dbe6ee80c44: port 3(veth9190879) entered blocking state
+Aug 10 14:28:13 r1 kernel: [ 3193.905130] br-0dbe6ee80c44: port 3(veth9190879) entered disabled state
+Aug 10 14:28:13 r1 kernel: [ 3193.906076] veth9190879: entered allmulticast mode
+Aug 10 14:28:13 r1 kernel: [ 3193.906884] veth9190879: entered promiscuous mode
+Aug 10 14:28:13 r1 kernel: [ 3194.289922] eth0: renamed from vethe9f09a5
+Aug 10 14:28:13 r1 kernel: [ 3194.338595] eth0: renamed from veth0228ef2
+Aug 10 14:28:13 r1 kernel: [ 3194.340417] eth0: renamed from vethac29c5f
+Aug 10 14:28:13 r1 kernel: [ 3194.342443] br-0dbe6ee80c44: port 3(veth9190879) entered blocking state
+Aug 10 14:28:13 r1 kernel: [ 3194.343862] br-0dbe6ee80c44: port 3(veth9190879) entered forwarding state
+Aug 10 14:28:13 r1 kernel: [ 3194.346726] br-0dbe6ee80c44: port 1(vethfb7f8b5) entered blocking state
+Aug 10 14:28:13 r1 kernel: [ 3194.348031] br-0dbe6ee80c44: port 1(vethfb7f8b5) entered forwarding state
+Aug 10 14:28:13 r1 kernel: [ 3194.349659] br-0dbe6ee80c44: port 2(veth4c6a5d8) entered blocking state
+Aug 10 14:28:13 r1 kernel: [ 3194.350920] br-0dbe6ee80c44: port 2(veth4c6a5d8) entered forwarding state
+Aug 10 14:28:13 r1 kernel: [ 3194.442224] Gi0-0-0-0: renamed from clab-6c234341
+Aug 10 14:28:13 r1 kernel: [ 3194.486725] Gi0-0-0-0: renamed from clab-22d99628
+Aug 10 14:28:13 r1 kernel: [ 3194.534259] Gi0-0-0-0: renamed from clab-30cf1ed3
+Aug 10 14:28:13 r1 kernel: [ 3194.582479] Gi0-0-0-1: renamed from clab-58dbdf13
+Aug 10 14:28:13 r1 kernel: <46>[ 3195.585026] systemd-journald[301]: Received request to flush runtime journal from PID 1
+Aug 10 14:28:13 r1 kernel: <46>[ 3195.585428] systemd-journald[305]: Received request to flush runtime journal from PID 1
+Aug 10 14:28:13 r1 kernel: <46>[ 3195.586281] systemd-journald[304]: Received request to flush runtime journal from PID 1
+Aug 10 14:28:17 r1 kernel: [ 3201.833298] Gi0-0-0-0: entered promiscuous mode
+Aug 10 14:28:17 r1 kernel: [ 3201.881402] eth0: entered promiscuous mode
+Aug 10 14:28:18 r1 kernel: [ 3202.153216] eth0: entered promiscuous mode

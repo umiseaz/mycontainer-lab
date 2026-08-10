@@ -1,0 +1,9 @@
+commands/toolcontext.c:361     Logging initialised at Mon Aug 10 14:28:11 2026
+commands/toolcontext.c:551     Set umask from 0022 to 0077
+commands/toolcontext.c:1695    WARNING: Failed to connect to lvmetad. Falling back to device scanning.
+libdm-file.c:45      Creating directory "/tmp/lock/lvm"
+toollib.c:2313    No volume groups found.
+commands/toolcontext.c:361     Logging initialised at Mon Aug 10 14:28:14 2026
+commands/toolcontext.c:551     Set umask from 0022 to 0077
+commands/toolcontext.c:1695    WARNING: Failed to connect to lvmetad. Falling back to device scanning.
+toollib.c:2313    No volume groups found.
