@@ -1,0 +1,11 @@
+# containerlab-generated runtime state (TLS certs, per-node flash/config,
+# reload logs, tech-support archives, generated inventories). Regenerated
+# on every `containerlab deploy`, so it's noise in version control and can
+# contain private key material - only the source .clab.yaml topology files
+# are tracked.
+arista-mlag-lab/clab-arista-mlag-lab/
+junos-mclag-arista-lab/clab-junos-mclag-arista-lab/
+evpn-vxlan/clab-evpn-vxlan/
+evpn-vxlan-sysmmetric-irb/clab-evpn-vxlan-sysmmetric-irb/
+evpn-vxlan-route-type-5/clab-evpn-vxlan-route-type-5/
+clab-segment-routing/clab-sr-lab1/
