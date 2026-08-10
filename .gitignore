@@ -1,0 +1,10 @@
+# This repo is rooted at $HOME, which also holds shell dotfiles, caches,
+# and credentials (.ssh, .docker, .git-credentials, .claude.json, .config,
+# etc.) that must never be staged. Ignore everything by default and allow
+# only the paths that are actually meant to be tracked.
+/*
+
+!/mycontainer-lab
+!/README.md
+!/vscode-setting.json
+!/.gitignore
