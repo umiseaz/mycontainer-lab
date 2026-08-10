@@ -13,3 +13,8 @@ admin/admin@123
 ```
 admin/admin
 ```
+
+# cisco xrvd
+```
+clab/clab@123
+```
