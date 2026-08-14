@@ -1,0 +1,24 @@
+name: segment-routing-lab1
+topology:
+  nodes:
+    r1:
+      kind: cisco_xrd
+      image: sbezverk/xrd-control-plane:7.9.2
+      startup-config: config/r1.cfg
+    r2:
+      kind: cisco_xrd
+      image: sbezverk/xrd-control-plane:7.9.2
+      startup-config: config/r2.cfg
+    r3:
+      kind: cisco_xrd
+      image: sbezverk/xrd-control-plane:7.9.2
+      startup-config: config/r3.cfg
+    r4:
+      kind: cisco_xrd
+      image: sbezverk/xrd-control-plane:7.9.2
+      startup-config: config/r4.cfg
+  links:
+    - endpoints: ["r1:Gi0-0-0-0", "r2:Gi0-0-0-0"]
+    - endpoints: ["r2:Gi0-0-0-1", "r3:Gi0-0-0-0"]
+    - endpoints: ["r1:Gi0-0-0-1", "r4:Gi0-0-0-0"]
+    - endpoints: ["r3:Gi0-0-0-1", "r4:Gi0-0-0-1"]
