@@ -1,0 +1,4 @@
+# Containerlab runtime dirs (root-owned, regenerated on deploy - never commit)
+clab-*/
+*/clab-*/
+.*.bak

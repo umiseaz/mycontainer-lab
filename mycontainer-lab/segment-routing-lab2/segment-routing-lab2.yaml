@@ -1,0 +1,46 @@
+name: segment-routing-lab2
+
+mgmt:
+  network: clab2
+  ipv4-subnet: 172.20.21.0/24
+  ipv6-subnet: 3fff:172:20:21::/64
+
+topology:
+  nodes:
+    r1:
+      kind: cisco_xrd
+      image: sbezverk/xrd-control-plane:7.9.2
+      startup-config: config/r1.cfg
+    r2:
+      kind: cisco_xrd
+      image: sbezverk/xrd-control-plane:7.9.2
+      startup-config: config/r2.cfg
+    r3:
+      kind: cisco_xrd
+      image: sbezverk/xrd-control-plane:7.9.2
+      startup-config: config/r3.cfg
+    r4:
+      kind: cisco_xrd
+      image: sbezverk/xrd-control-plane:7.9.2
+      startup-config: config/r4.cfg
+    r5:
+      kind: cisco_xrd
+      image: sbezverk/xrd-control-plane:7.9.2
+      startup-config: config/r5.cfg
+    r6:
+      kind: cisco_xrd
+      image: sbezverk/xrd-control-plane:7.9.2
+      startup-config: config/r6.cfg
+    r7:
+      kind: cisco_xrd
+      image: sbezverk/xrd-control-plane:7.9.2
+      startup-config: config/r7.cfg
+
+  links:
+    - endpoints: ["r1:Gi0-0-0-0", "r2:Gi0-0-0-0"]
+    - endpoints: ["r2:Gi0-0-0-1", "r3:Gi0-0-0-0"]
+    - endpoints: ["r3:Gi0-0-0-1", "r4:Gi0-0-0-0"]
+    - endpoints: ["r4:Gi0-0-0-1", "r5:Gi0-0-0-0"]
+    - endpoints: ["r5:Gi0-0-0-1", "r6:Gi0-0-0-0"]
+    - endpoints: ["r3:Gi0-0-0-2", "r7:Gi0-0-0-0"]
+    - endpoints: ["r7:Gi0-0-0-1", "r6:Gi0-0-0-1"]
