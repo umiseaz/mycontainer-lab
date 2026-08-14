@@ -1,5 +1,0 @@
-MAX_SIZE 32768
-DUMP on
-FILE_LOOP_COUNT 2
-TRACE fmlib_cipc_error
-NOPIPE fmlib_cipc_error

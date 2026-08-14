@@ -1,5 +1,0 @@
-MAX_SIZE 524288
-DUMP on
-FILE_LOOP_COUNT 2
-TRACE client_warn
-NOPIPE client_warn

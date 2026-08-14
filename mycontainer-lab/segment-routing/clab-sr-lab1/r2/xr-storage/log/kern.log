@@ -1,4 +1,0 @@
-Aug 10 14:28:12 r2 kernel: klogd 1.5.1, log source = /proc/kmsg started.
-Aug 10 14:28:12 r2 kernel: Cannot find map file.
-Aug 10 14:28:13 r2 kernel: Loaded 207691 symbols from 21 modules.
-Aug 10 14:32:28 r2 kernel: [ 3452.247577] TCP: Mg0_RP0_CPU0_0: Driver has suspect GRO implementation, TCP performance may be compromised.

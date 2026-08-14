@@ -1,5 +1,0 @@
-2026-08-10 14:28:28,118   2762 [__main__     ] INF: -------------------------------------------------------------------------------
-2026-08-10 14:28:28,119   2762 [__main__     ] INF: Started
-2026-08-10 14:28:28,646   2762 [Verifier     ] INF: Verifier setup done
-2026-08-10 14:28:28,647   2762 [__main__     ] DEB: Entering event loop
-2026-08-10 14:28:28,647   2762 [_sync        ] INF: Standby state change: <StandbyState.DOWN: 0>

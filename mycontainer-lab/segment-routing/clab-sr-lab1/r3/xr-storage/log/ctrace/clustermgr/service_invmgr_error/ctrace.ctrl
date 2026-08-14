@@ -1,5 +1,0 @@
-MAX_SIZE 262144
-DUMP on
-FILE_LOOP_COUNT 2
-TRACE service_invmgr_error
-NOPIPE service_invmgr_error

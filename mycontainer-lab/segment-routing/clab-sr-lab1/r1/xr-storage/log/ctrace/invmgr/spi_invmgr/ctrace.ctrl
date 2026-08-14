@@ -1,5 +1,0 @@
-MAX_SIZE 32768
-DUMP on
-FILE_LOOP_COUNT 2
-TRACE spi_invmgr
-NOPIPE spi_invmgr

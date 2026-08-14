@@ -1,5 +1,0 @@
-MAX_SIZE 1048576
-DUMP on
-FILE_LOOP_COUNT 2
-TRACE inv_ha_handle
-NOPIPE inv_ha_handle

@@ -1,5 +1,0 @@
-MAX_SIZE 65536
-DUMP on
-FILE_LOOP_COUNT 2
-TRACE fmlib_detail_debug
-NOPIPE fmlib_detail_debug

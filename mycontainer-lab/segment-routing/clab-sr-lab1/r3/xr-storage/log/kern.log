@@ -1,7 +1,0 @@
-Aug 10 14:28:12 r3 kernel: klogd 1.5.1, log source = /proc/kmsg started.
-Aug 10 14:28:12 r3 kernel: Cannot find map file.
-Aug 10 14:28:13 r3 kernel: Loaded 207691 symbols from 21 modules.
-Aug 10 14:28:18 r3 kernel: [ 3202.073308] Gi0-0-0-0: entered promiscuous mode
-Aug 10 14:28:18 r3 kernel: [ 3202.121257] Gi0-0-0-0: entered promiscuous mode
-Aug 10 14:28:18 r3 kernel: [ 3202.122200] Gi0-0-0-1: entered promiscuous mode
-Aug 10 14:28:18 r3 kernel: [ 3202.123264] eth0: entered promiscuous mode

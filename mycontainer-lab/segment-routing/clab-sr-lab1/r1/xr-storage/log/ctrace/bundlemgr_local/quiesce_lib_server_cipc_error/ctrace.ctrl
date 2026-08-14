@@ -1,5 +1,0 @@
-MAX_SIZE 32768
-DUMP on
-FILE_LOOP_COUNT 2
-TRACE quiesce_lib_server_cipc_error
-NOPIPE quiesce_lib_server_cipc_error
