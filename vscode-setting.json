@@ -8,27 +8,13 @@
     "github.copilot.nextEditSuggestions.fixes": false,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "workbench.colorTheme": "Default Dark+",
-    "terminal.integrated.copyOnSelection": true
-    
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.defaultLocation": "editor",
+    "editor.renderWhitespace": "boundary",
+
     "workbench.colorCustomizations": {
-        "editor.background": "#000000",
-        "editor.foreground": "#00FF41",
         "terminal.background": "#000000",
         "terminal.foreground": "#00FF41",
         "terminalCursor.foreground": "#00FF41"
     }
-
-    "editor.tokenColorCustomizations": {
-    "comments": "#00FF41",
-    "functions": "#00FF41",
-    "keywords": "#00FF41",
-    "numbers": "#00FF41",
-    "strings": "#00FF41",
-    "types": "#00FF41",
-    "variables": "#00FF41"
-}
-
-    "terminal.integrated.defaultLocation": "editor"
-    "editor.renderWhitespace": "boundary"
-
 }
